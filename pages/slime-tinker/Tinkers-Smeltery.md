@@ -6,7 +6,7 @@
 
 一个可用的匠魂冶炼炉如下图所示:
 
-![匠魂冶炼炉](https://cdn.jsdelivr.net/gh/SlimefunGuguProject/SlimeTinker-Wiki@master/images/tinkers-smeltery.png ':size=50%')
+![匠魂冶炼炉](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/slime-tinker/tinkers-smeltery.png ':size=50%')
 
 其中，最上面的3个方块与最下面的3个方块是[焦黑石砖](./Materials#seared-brick-block)。中间左侧的方块是[焦黑液罐](./Materials#seared-tank)，中间右侧的方块是[焦黑浇筑口](./Materials#spout)。  
 最中间的方块是[冶炼炉控制器](./Materials#smeltery-controller)。当所有方块都放在正确位置时，右键点击冶炼炉控制器即可打开，否则会弹出一条消息。
@@ -15,7 +15,7 @@
 
 右键点击打开冶炼炉控制器，可以看到以下界面：
 
-![匠魂冶炼炉控制器](https://cdn.jsdelivr.net/gh/SlimefunGuguProject/SlimeTinker-Wiki@master/images/tinkers-smeltery-controller.png ':size=50%')
+![匠魂冶炼炉控制器](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/slime-tinker/tinkers-smeltery-controller.png ':size=50%')
 
 ### 输入栏 :id=input-slot
 
