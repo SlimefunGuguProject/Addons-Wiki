@@ -1,6 +1,6 @@
 # 入门 :id=getting-started
 
-如果你还不了解如何玩 Slimefun，请先阅读 [Slimefun 入门](https://slimefun.guizhanss.wiki/#/Getting-Started)。
+如果你还不了解如何玩 Slimefun，请先阅读 [Slimefun 入门](https://slimefun-wiki.guizhanss.cn/Getting-Started)。
 
 ## 1. Slimefun 指南 :id=1-slimefun-guide
 
@@ -28,7 +28,7 @@
 
 在 Slimefun 指南中，你可以看到所有异域花园食物或饮料的配方，只需要在指定机器中摆好配方就可以制作。
 
-别忘了，果汁和冰沙是可以放进[小冰柜](https://slimefun.guizhanss.wiki/#/Cooler)里的。
+别忘了，果汁和冰沙是可以放进[小冰柜](https://slimefun-wiki.guizhanss.cn/Cooler)里的。
 
 ## 5. 魔法植物 :id=5-magical-crops
 

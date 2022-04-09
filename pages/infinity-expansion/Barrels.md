@@ -27,7 +27,7 @@
 
 当你右键点击一个存储单元时，你可以打开存储单元界面。
 
-![空存储单元](https://cdn.jsdelivr.net/gh/ybw0014/InfinityExpansion-Wiki@master/images/storage-empty.png ':size=50%')
+![空存储单元](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/infinity-expansion/storage-empty.png ':size=50%')
 
 #### 存入物品
 
@@ -45,18 +45,18 @@
 - **开启** *存储满时清空输入* ：当存储满时，存储单元会清空后续输入的物品。注意：放入其他物品时仍会阻塞输入。
 - **关闭** *存储满时清空输入* ：当存储满时，放入任何物品均会阻塞输入，这可能导致其他机器无法输出或货运满载。
 
-![空存储单元](https://cdn.jsdelivr.net/gh/ybw0014/InfinityExpansion-Wiki@master/images/storage-status.png ':size=50%')
+![空存储单元](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/infinity-expansion/storage-status.png ':size=50%')
 
 #### 快捷操作
 
 你可以通过界面下方的绿色按钮来进行一些快捷操作：
 
-![快捷操作](https://cdn.jsdelivr.net/gh/ybw0014/InfinityExpansion-Wiki@master/images/storage-interactions.png ':size=50%')
+![快捷操作](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/infinity-expansion/storage-interactions.png ':size=50%')
 
 #### 告示牌
 
 你可以在存储单元的侧面放置一块告示牌（可以是任意类型的），这样你不用打开存储单元就能了解存储的物品和数量。
 
-![告示牌](https://cdn.jsdelivr.net/gh/ybw0014/InfinityExpansion-Wiki@master/images/storage-sign.png ':size=50%')
+![告示牌](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/infinity-expansion/storage-sign.png ':size=50%')
 
 告示牌不用填写任何内容，每隔约10秒会更新一次告示牌内容。

@@ -8,7 +8,7 @@
 
 打开无尽工作台可以看到以下界面：
 
-![无尽工作台界面](https://cdn.jsdelivr.net/gh/ybw0014/InfinityExpansion-Wiki@master/images/infinity-forge-gui.png ':size=50%')
+![无尽工作台界面](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/infinity-expansion/infinity-forge-gui.png ':size=50%')
 
 其中左侧的 6x6 区域为配方摆放区域。
 

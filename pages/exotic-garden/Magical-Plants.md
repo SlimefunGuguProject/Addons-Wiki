@@ -9,5 +9,5 @@
 
 8个魔法精华可以用来合成魔法精华所对应的资源。
 
-要合成资源，你需要在[增强型工作台](https://slimefun.guizhanss.wiki/#/Enhanced-Crafting-Table)中，将8个魔法精华围成一圈，中间留空。  
+要合成资源，你需要在[增强型工作台](https://slimefun-wiki.guizhanss.cn/Enhanced-Crafting-Table)中，将8个魔法精华围成一圈，中间留空。  
 然后就可以获得对应的资源了。
