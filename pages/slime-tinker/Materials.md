@@ -10,7 +10,7 @@
 
 ### 焦黑砖 :id=seared-brick
 
-在[冶炼炉](https://slimefun.guizhanss.wiki/Smeltery)中烧制水泥获得，用于合成[匠魂冶炼炉](./Tinkers-Smeltery)的组成方块。
+在[冶炼炉](https://slimefun-wiki.guizhanss.cn/Smeltery)中烧制水泥获得，用于合成[匠魂冶炼炉](./Tinkers-Smeltery)的组成方块。
 
 ### 冶炼炉控制器 :id=smeltery-controller
 

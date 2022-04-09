@@ -2,9 +2,9 @@
 
 欢迎来到网络！本教程将带你了解一些网络中最基础的东西。
 
-如果你刚入门粘液科技，那么你现在应该去了解一下[粘液科技的基础知识](https://slimefun.guizhanss.wiki/Getting-Started)。本附属不建议刚入门粘液科技的玩家接触。  
+如果你刚入门粘液科技，那么你现在应该去了解一下[粘液科技的基础知识](https://slimefun-wiki.guizhanss.cn/Getting-Started)。本附属不建议刚入门粘液科技的玩家接触。  
 
-如果你已经了解了[货运网络](https://slimefun.guizhanss.wiki/Cargo-Management)是如何工作的，那么你可以开始了解这个附属。
+如果你已经了解了[货运网络](https://slimefun-wiki.guizhanss.cn/Cargo-Management)是如何工作的，那么你可以开始了解这个附属。
 
 ## 了解网络
 

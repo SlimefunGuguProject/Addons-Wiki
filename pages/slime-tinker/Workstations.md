@@ -16,7 +16,7 @@
 
 ### 匠魂合成站 :id=tinkers-workbench
 
-匠魂合成站用于合成匠魂中大部分需要用到的物品。同时，它也可以当成[增强型工作台](https://slimefun.guizhanss.wiki/Enhanced-Crafting-Table)使用。
+匠魂合成站用于合成匠魂中大部分需要用到的物品。同时，它也可以当成[增强型工作台](https://slimefun-wiki.guizhanss.cn/Enhanced-Crafting-Table)使用。
 
 ### 匠魂工具组装台 :id=tinkers-table
 
