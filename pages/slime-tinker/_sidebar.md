@@ -1,4 +1,4 @@
-- [主页](./Home)
+- [主页](./)
 - 教程
     - [下载与安装](./Install-SlimeTinker)
     - [入门](./Getting-Started)
