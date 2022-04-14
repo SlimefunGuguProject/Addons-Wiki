@@ -14,7 +14,7 @@
 
 下图从左到右依次为：树莓灌木丛、番茄植物、香菜植物。
 
-![植物与灌木丛](https://cdn.jsdelivr.net/gh/ybw0014/ExoticGarden-Wiki@master/images/plants-and-bushes.png ':size=50%')
+![植物与灌木丛](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/exotic-garden/plants-and-bushes.png ':size=50%')
 
 ## 树 :id=tree
 
@@ -26,4 +26,4 @@
 
 下图为一棵椰子树。
 
-![树](https://cdn.jsdelivr.net/gh/ybw0014/ExoticGarden-Wiki@master/images/tree.png ':size=50%')
+![树](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/exotic-garden/tree.png ':size=50%')
