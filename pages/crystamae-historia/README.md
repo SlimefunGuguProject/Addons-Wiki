@@ -18,6 +18,7 @@ CrystamaeHistoria的非官方中文名为魔法水晶编年史。[点此下载](
 
 - [下载与安装](./Install)
 - [法术制作流程](./Spell-Crafting)
+- [自动化魔法水晶生产](./Automate-Crystamae)
 
 ## 分类
 

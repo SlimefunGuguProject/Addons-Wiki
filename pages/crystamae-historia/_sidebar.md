@@ -2,6 +2,7 @@
 - 教程
     - [下载与安装](./Install)
     - [法术制作流程](./Spell-Crafting)
+    - [自动化魔法水晶生产](./Automate-Crystamae)
 - 分类
     - [装置](./Mechanisms)
     - [魔法水晶](./What-is-Crystamae)
