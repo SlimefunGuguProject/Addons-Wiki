@@ -1,6 +1,6 @@
-# 水壶
+# 喷壶
 
-水壶是蓬松机器中的工具，可以加快作物的生长，或者减速玩家。
+喷壶是蓬松机器中的[工具](./Tools)，可以加快作物的生长，或者减速玩家。
 
 ## 使用
 
@@ -12,11 +12,11 @@
 
 ## 设置
 
-你可以在`/plugins/Slimefun/Items.yml`中修改水壶的设置。
+你可以在`/plugins/Slimefun/Items.yml`中修改喷壶(`WATERING_CAN`)的设置。
 
 | 设置项 | 默认值 | 说明 |
 | ----- | ----- | --- |
-| `max-uses` | 10 | 水壶灌满后的最大使用次数 |
+| `max-uses` | 10 | 喷壶灌满后的最大使用次数 |
 | `sugar-cane-success-chance` | 0.3 | 催熟甘蔗的几率 |
 | `crop-success-chance` | 0.3 | 催熟作物的几率 |
 | `tree-success-chance` | 0.3 | 催熟树苗的几率 |
