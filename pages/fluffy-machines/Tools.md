@@ -9,4 +9,4 @@
 - [改进斧头](./Upgraded-Tools#lumber-axe)
 - [改进爆破镐](./Upgraded-Tools#explosive-tools)
 - [改进爆破铲](./Upgraded-Tools#explosive-tools)
-- 多功能工具
+- [多功能工具](./Paxel)
