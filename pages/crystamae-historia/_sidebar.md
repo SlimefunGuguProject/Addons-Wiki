@@ -1,0 +1,15 @@
+- [首页](./)
+- 教程
+    - [下载与安装](./Install)
+    - [法术制作流程](./Spell-Crafting)
+    - [自动化魔法水晶生产](./Automate-Crystamae)
+- 分类
+    - [装置](./Mechanisms)
+    - [魔法水晶](./What-is-Crystamae)
+    - [法杖与工具](./Tools)
+    - [魔法与科技](./Gadgets)
+    - [魔法与艺术](./Artistic-Items)
+    - [尊贵物品](./Exalted-Items)
+    - [独特物品](./Uniques)
+    - [神秘符文](./Runes)
+    - [原材料](./Materials)
