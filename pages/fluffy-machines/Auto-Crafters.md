@@ -1,0 +1,30 @@
+# 全自动合成机
+
+全自动合成机是蓬松机器中的一系列可以自动合成物品[机器](./Machines)。
+
+以下机器均为自动合成机，分别可以使用不同机器的配方：
+
+- [**全自动工作台（原版）**](./Auto-Crafting-Table): 使用原版工作台的配方，使用方法与其他全自动合成机略有不同。
+- **全自动远古祭坛**: 使用[古代祭坛](https://slimefun-wiki.guizhanss.cn/Ancient-Altar)的配方
+- **全自动切石机**: 使用切石机的配方
+- **自动魔法工作台**: 使用[魔法工作台](https://slimefun-wiki.guizhanss.cn/Magic-Workbench)的配方
+- **全自动盔甲锻造机**: 使用[盔甲锻造台](https://slimefun-wiki.guizhanss.cn/Armor-Forge)的配方
+
+## 使用
+
+打开任意自动合成机可以看到以下界面：
+
+![自动合成机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/fluffy-machines/auto-crafters.png ':size=25%')
+
+左侧蓝色区域摆放配方。
+
+右上角的火药/红石粉为机器开关，开启后将不断使用材料进行合成。
+右上角还有一个按钮可以只合成一次，来查看机器是否能正常合成。
+
+## 信息
+
+所有自动合成机的电力消耗都是一致的。
+
+**速度**: 1x  
+**电力消耗**: 256 J/s  
+**可储存**: 384 J
