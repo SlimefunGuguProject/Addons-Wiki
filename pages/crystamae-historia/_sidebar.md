@@ -1,0 +1,11 @@
+- [首页](./)
+- 教程
+    - [下载与安装](./Install)
+- 分类
+    - [装置](./Spell-Crafting)
+    - [魔法水晶](./What-is-Crystamae)
+    - [工具](./Tools)
+    - [魔法与科学](./Gadgets)
+    - [魔法与艺术](./Artistic-Items)
+    - [尊贵物品](./Exalted-Items)
+    - [独特物品](./Uniques)
