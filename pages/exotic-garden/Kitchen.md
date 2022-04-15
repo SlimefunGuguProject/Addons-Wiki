@@ -8,7 +8,7 @@
 
 一个完整的厨房看起来像这样:
 
-![厨房](https://cdn.jsdelivr.net/gh/ybw0014/ExoticGarden-Wiki@master/images/kitchen.png ':size=50%')
+![厨房](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/exotic-garden/kitchen.png ':size=50%')
 
 ## 使用 :id=usage
 

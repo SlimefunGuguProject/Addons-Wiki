@@ -1,4 +1,4 @@
-# 下载与安装 :id=install-ExoticGarden
+# 下载与安装 :id=install
 
 ## 下载地址 :id=download
 
