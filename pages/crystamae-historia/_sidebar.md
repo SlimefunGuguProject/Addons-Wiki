@@ -1,10 +1,11 @@
 - [首页](./)
 - 教程
     - [下载与安装](./Install)
+    - [法术制作流程](./Spell-Crafting)
 - 分类
-    - [装置](./Spell-Crafting)
+    - [装置](./Mechanisms)
     - [魔法水晶](./What-is-Crystamae)
-    - [工具](./Tools)
+    - [法杖与工具](./Tools)
     - [魔法与科学](./Gadgets)
     - [魔法与艺术](./Artistic-Items)
     - [尊贵物品](./Exalted-Items)
