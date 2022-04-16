@@ -1,5 +1,7 @@
-## Contents of the Wiki
+## 自定义核弹Wiki
 
-- [Guide for players](https://github.com/aurgiyalgo/SlimefunNukes/wiki/Guide-for-players). Contains basic information about the addon.
+- [致玩家](./Guide-for-players)   
+- 包含关于插件的基本信息
 
-- [Guide for server owners](https://github.com/aurgiyalgo/SlimefunNukes/wiki/Guide-for-server-owners). Information about installing the addon, the configuration file, commands and permissions.
+- [致服主](./Guide-for-server-owners).   
+- 关于安装插件、配置文件、命令和权限的信息
