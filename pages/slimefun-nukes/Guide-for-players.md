@@ -1,5 +1,7 @@
-SlimefunNukes adds crafteable nuclear weapons to use with Slimefun. You can access all of the recipes using the Slimefun Guide through the Advanced Weaponry category. The items are radioactive, so you must use a Hazmat Suit when carrying them.
+# 致玩家
 
-When placed on the ground, you have to right click it with flint and steel to ignite it and, depending on the server configuration, you have a limited time to escape before it goes off.
+SlimefunNukes添加了可制造的核武器，可以搭配Slimefun一起使用。你可以通过高级武器类别使用Slimefun指南获得所有的合成配方。这些物品有放射性，所以你在携带时必须穿上防护服。  
 
-Once it explodes it will create a seemingly spherical crates, often causing fire even far away from the explosion. Depending on the size of the explosion the crater may take a longer time to form.
+当核弹放在地上时，你必须用打火石右击它来点燃它，根据服务器的配置，在它爆炸之前，你有有限的时间逃跑。  
+
+一旦爆炸，它会生成一个看似球形的核弹坑，并有可能会引起火灾，你要远离爆炸点。根据爆炸的规模，弹坑可能需要更长的时间才能形成。
