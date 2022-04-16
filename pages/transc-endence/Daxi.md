@@ -1,9 +1,10 @@
 # 超能力核心
 
-![超能力核心](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transcendence/page.png ':size=25%')  
+![超能力核心](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/page.png ':size=25%')  
 
 第三行后五格为超能力核心  
 右键使用，使用后可以获得永久的药水效果，按下F5切换视角来查看使用时的粒子特效   
+
 不同超能力核心代表着不同的药水效果  
 该药水效果无法通过喝牛奶去除，但可以通过死亡去除  
 
@@ -14,4 +15,3 @@
 | 超能力核心(R) | 生命恢复 II |
 | 超能力核心(F) | 抗性提升 IV |
 | 超能力核心(H) | 饱和 |
-
