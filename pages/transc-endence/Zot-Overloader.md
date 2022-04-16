@@ -6,7 +6,7 @@
 
 打开粒子过载机可以看到以下界面：  
 
-![粒子过载机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transcendence/zor.png ':size=25%')  
+![粒子过载机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/zor.png ':size=25%')  
 
 该机器需要在末地才能运行  
 用于给未充能的粒子充能  

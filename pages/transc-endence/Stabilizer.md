@@ -6,7 +6,7 @@
 
 打开稳定器可以看到以下界面：  
 
-![稳定器](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transcendence/sr.png ':size=25%')  
+![稳定器](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/sr.png ':size=25%')  
 
 该机器需要在末地才能运行  
 左边放入材料，右边输出不稳定的锭

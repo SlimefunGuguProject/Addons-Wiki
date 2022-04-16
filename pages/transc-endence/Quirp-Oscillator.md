@@ -6,7 +6,7 @@
 
 打开粒子生产机可以看到以下界面：  
 
-![粒子生产机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transcendence/qor.png ':size=25%')  
+![粒子生产机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/qor.png ':size=25%')  
 
 该机器需要在末地才能运行，用于生产粒子Up/Down/Left/Right  
 
@@ -16,5 +16,3 @@
  
 **电力消耗**: 256 J/s  
 **可储存**: 512 J
-
-
