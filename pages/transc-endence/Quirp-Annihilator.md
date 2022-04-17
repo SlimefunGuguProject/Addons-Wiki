@@ -6,7 +6,7 @@
 
 打开粒子冷凝机可以看到以下界面：  
 
-![粒子冷凝机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transcendence/qar.png ':size=25%')  
+![粒子冷凝机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/qar.png ':size=25%')  
 
 该机器需要在末地才能运行  
 用于生产冷凝粒子  
@@ -20,5 +20,3 @@
  
 **电力消耗**: 512 J/s  
 **可储存**: 1024 J
-
-
