@@ -2,7 +2,7 @@
 
 该分类包含在[无尽工作台](./Infinity-Forge)中使用大量资源进行合成的物品/机器。
 
-[点击此处查看baoad版本的物品名称](./Infinity-Items)
+[点击此处查看原版的物品名称](./Infinity-Items)
 
 ## 目录 :id=table-of-contents
 

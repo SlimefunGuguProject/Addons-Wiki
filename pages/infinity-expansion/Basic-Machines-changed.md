@@ -2,7 +2,7 @@
 
 该分类包含合成配方较为简单的机器。
 
-[点击此处查看baoad版本的物品名称](./Basic-Machines)
+[点击此处查看原版的物品名称](./Basic-Machines)
 
 ## 目录 :id=table-of-contents
 

@@ -4,7 +4,7 @@
 
 要制作一个结构，你需要使用[结构转换器](./Singularity-Constructor)。
 
-[点击此处查看baoad版本的物品名称](./Singularities)
+[点击此处查看原版的物品名称](./Singularities)
 
 ## 目录 :id=table-of-contents
 
