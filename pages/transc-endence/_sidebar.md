@@ -1,6 +1,6 @@
 - [主页](./)
 - 教程
-    - [下载与安装](./Install)
+    - [下载与安装](./Install-transcendence)
 - 分类
     - [指南书](./Info)
     - [材料](./Material)

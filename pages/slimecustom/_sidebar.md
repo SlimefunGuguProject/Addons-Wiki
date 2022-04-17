@@ -1,0 +1,8 @@
+- [主页](./)
+- 教程
+    - [下载与安装](./Install-slimecustom)
+- 自定义类附属
+    - [自定义粘液附属](./SlimeCustomizer)
+    - [自定义粘液任务](./SlimefunAdvancements)
+    - [自定义粘液核弹](./Slimefun-nukes)
+    - [自定义生物掉落物](./SFMobDrops)

@@ -11,5 +11,6 @@
 - [FoxyMachines 神秘科技](/foxy-machines/)
 - [InfinityExpansion 无尽科技](/infinity-expansion/)
 - [Networks 网络](/networks/)
+- [SlimeCustom 自定义类粘液附属](/slimecustom/)
 - [SlimeTinker 粘液匠魂](/slime-tinker/)
 - [TranscEndence 末地科技](/transc-endence/)
