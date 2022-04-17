@@ -9,8 +9,8 @@
 
 ## 分类
 
-- [自定义粘液附属](./SlimeCustomizer)
-- [自定义粘液任务](./SlimefunAdvancements)
-- [自定义粘液核弹](./Slimefun-nukes)
-- [自定义生物掉落物](./SFMobDrops)
+- [自定义粘液附属](./Slimecustomizer)
+- [自定义粘液任务](./Slimefunadvancements)
+- [自定义粘液核弹](./Slimefunnukes)
+- [自定义生物掉落物](./Sfmobdrops)
 
