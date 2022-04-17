@@ -1,7 +1,7 @@
 # 主页
 
 这里整合了所有自定义类附属的Wiki  
-由[haiman233](https://github.com/haiman233) 编写。
+由[haiman233](https://github.com/haiman233)编写。
 
 ## 教程
 
