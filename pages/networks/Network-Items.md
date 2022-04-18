@@ -15,8 +15,6 @@
 - [网格](./Network-Grid)
 - [网格（带合成）](./Network-Grid)
 - [网络单元](./Network-Cell)
-- [网络读卡器](./Network-Memory-Shell)（曾用名：网络外壳）
-- [网络内存清除器](./Network-Memory-Wiper)
 - [网络电容](./Network-Capacitor)
 - [网络电表](./Network-Power-Display)
 - [网络配方编码器](./Network-Encoder)

@@ -29,5 +29,7 @@
 ## 分类
 
 - [合成材料](./Materials)
-- [内存卡与工具](./Tools)
+- [网络管理工具](./Tools)
 - [网络物品](./Network-Items)
+- [量子存储设备](./Quantum-Storages)
+- [旧版内存卡相关物品](./Disabled-Items)
