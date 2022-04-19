@@ -1,4 +1,4 @@
-- [首页](./)
+- [抑郁花园 - 首页](./)
 - 教程
     - [下载与安装](./Install-ExoticGarden)
     - [入门](./Getting-Started)
