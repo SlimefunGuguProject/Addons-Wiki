@@ -31,6 +31,7 @@
 - [高级太阳能板](./Solar-Generator)
 - [加强太阳能板](./Solar-Generator)
 - [虚空太阳能板](./Void-Panel)
+- [混凝土成型机](./Concrete-Molding-Machine)
 - [虚空电容](./Slimefun-Extension#void-capacitor)
 - [高级附魔机](./Slimefun-Extension#advanced-enchanter)
 - [高级驱魔机](./Slimefun-Extension#advanced-disenchanter)
