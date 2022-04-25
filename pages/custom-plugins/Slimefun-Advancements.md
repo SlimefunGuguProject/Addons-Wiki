@@ -2,92 +2,16 @@
 
 这是一个 Slimefun 附属，可以给 Slimefun 添加一个可配置的进度系统。
 
-## 下载
-
-**自动更新**: 汉化版构建#1及以后版本包含自动更新功能，默认开启。
-
-点击这里下载 SlimefunAdvancements: [下载 SlimefunAdvancements](https://builds.guizhanss.net/ybw0014/SlimefunAdvancements-CN/main)
-
-<p align="center">
-  <a href="https://github.com/ybw0014/SlimefunAdvancements-CN/actions/workflows/build.yml">
-    <img src="https://github.com/ybw0014/SlimefunAdvancements-CN/actions/workflows/build.yml/badge.svg" alt="Java CI"/>
-  </a>
-  <a href="https://builds.guizhanss.net/ybw0014/SlimefunAdvancements-CN/main">
-    <img src="https://builds.guizhanss.net/f/ybw0014/SlimefunAdvancements-CN/main/badge.svg" alt="Build status"/>
-  </a>
-</p>
-
-## 配置
-
-你可以在 `plugins/SFAdvancements/` 文件夹中查看配置文件
-
-### groups.yml
+## groups.yml
 
 你可以在该配置文件中设置进度的分组信息。
 
 分组键名只能使用英文、数字、下划线。
 
 分组会在`advancements.yml`文件中使用，你可以将不同分类的进度分配到不同的分组中。  
-每个分组都可以设置一个展示物品(`display`)，会在游戏内菜单中展示出来。你可以在下一小节了解如何配置展示物品。
+每个分组都可以设置一个展示物品(`display`)，会在游戏内菜单中展示出来。你可以在[物品设置](#item-settings)了解如何配置展示物品。
 
-### 物品设置
-
-你可以使用以下方法来展示物品:
-
-- 方法一: 物品ID (可以是 [原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) 或者 [粘液科技物品ID](https://sf-items.walshy.dev/) )
-- 方法二: 在`type`字段中指定物品ID，可选`name`字段指定显示名称，可选`lore`字段指定描述
-- 方法三: 序列化
-
-你可以在游戏中手持物品并使用`/sfa dumpitem`指令，在控制台中获得物品的序列化配置。
-
-支持彩色字符`&`。
-
-`groups.yml` 方法一示例:
-
-```yaml
-my_cool_group:
-  display: NETHER_STAR
-
-my_other_group:
-  display: ELECTRIC_MOTOR
-```
-
-`groups.yml` 方法二示例:
-
-```yaml
-basic:
-  display:
-    type: SLIME_BALL
-    name: "&f基础"
-    lore:
-      - "&7&o粘液科技的基础部分."
-
-electric:
-  display:
-    type: REDSTONE
-    name: "&e电力"
-    lore:
-      - "&7&o文明的中心."
-```
-
-`groups.yml` 方法三示例:
-
-```yaml
-hi:
-  display:
-    ==: org.bukkit.inventory.ItemStack
-    v: 2865
-    type: IRON_INGOT
-    meta:
-      ==: ItemMeta
-      meta-type: UNSPECIFIC
-      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
-        Ingot"}],"text":""}'
-      PublicBukkitValues:
-        slimefun:slimefun_item: ZINC_INGOT
-```
-
-### advancements.yml
+## advancements.yml
 
 你可以在该配置文件中设置所有的进度。
 
@@ -106,7 +30,7 @@ hi:
 
 支持彩色字符`&`。
 
-#### 进度完成条件
+### 进度完成条件
 
 每个进度可以设置多个条件。
 
@@ -149,16 +73,14 @@ hi:
   - 目前玩家可以重复在一个位置破坏并放置方块，来完成该条件。建议将数量设置为1个
 - `research`
   - 完成研究
-  - 需要在 `research` 中指定研究的 NamespacedKey
-    - NamespacedKey 的格式为 "插件:键名", 在 Slimefun 中的研究为 "slimefun:research"
-      - 例如: "slimefun:ender_talismans"
+  - 需要在 `research` 中指定研究的 NamespacedKey。现在你可以在[粘液科技小助手](https://slimefun-helper.guizhanss.cn)中查询研究的键名了。
 - `mobkill`
   - 击杀指定的生物
   - 需要在 `entity` 中指定生物类型
   - 生物类型为`EntityType`小写加下划线的形式 (例如 `stray`, `cave_spider`, `glow_squid`, etc.)
   - 可以通过 `amount` 指定击杀的数量
 
-#### 奖励
+### 奖励
 
 每个进度可以设置多种奖励（目前仅有`commands`类型)。
 
@@ -170,28 +92,68 @@ hi:
   - 一个字符串列表，每一行都是需要执行的指令
   - 在指令中使用 `%p%` 来表示完成进度的玩家名称
 
+
+## 物品设置 :id=item-settings
+
+你可以使用以下方法来展示物品:
+
+- 方法一: 物品ID (可以是 [原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) 或者 [粘液科技物品ID](https://slimefun-helper.guizhanss.cn) )
+- 方法二: 在`type`字段中指定物品ID，可选`name`字段指定显示名称，可选`lore`字段指定描述
+- 方法三: 序列化。你可以在游戏中手持物品并使用`/sfa dumpitem`指令，在控制台中获得物品的序列化配置。
+
+物品名称与描述均支持彩色字符`&`。
+
+### 方法一 示例
+
+`groups.yml`
+
+```yaml
+my_cool_group:
+  display: NETHER_STAR
+
+my_other_group:
+  display: ELECTRIC_MOTOR
+```
+
+### 方法二 示例
+
+`groups.yml`
+
+```yaml
+basic:
+  display:
+    type: SLIME_BALL
+    name: "&f基础"
+    lore:
+      - "&7&o粘液科技的基础部分."
+
+electric:
+  display:
+    type: REDSTONE
+    name: "&e电力"
+    lore:
+      - "&7&o文明的中心."
+```
+
+### 方法三 示例
+
+`groups.yml`
+
+```yaml
+hi:
+  display:
+    ==: org.bukkit.inventory.ItemStack
+    v: 2865
+    type: IRON_INGOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+        Ingot"}],"text":""}'
+      PublicBukkitValues:
+        slimefun:slimefun_item: ZINC_INGOT
+```
+
 ## 权限
 
 `sfa.command.<command name>`: 允许执行对应的指令
-
-## 自定义 (developers)
-
-请参阅 [api.md](./api.md)
-
-## TODO 计划中:
-- ~~条件系统~~
-  - ~~物品栏~~
-  - 合成 (等待 [Slimefun/Slimefun4#3439](https://github.com/Slimefun/Slimefun4/pull/3439))
-  - ~~交互~~
-      - ~~放置~~
-  - ~~完成研究~~
-- ~~配置~~
-- ~~奖励~~
-- 添加成就
-- ~~权限~~
-- 从其他插件加载进度
-- 更好地说明文件, ~~builds page~~
-- 树状展示
-- 进度 API (crazy)
-- 作弊菜单
-- 文档
