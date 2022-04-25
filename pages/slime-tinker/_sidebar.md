@@ -1,4 +1,5 @@
-- [粘液匠魂 - 首页](./)
+- **粘液匠魂**
+- [主页](./)
 - 教程
     - [下载与安装](./Install-SlimeTinker)
     - [入门](./Getting-Started)
