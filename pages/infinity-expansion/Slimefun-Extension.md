@@ -4,7 +4,7 @@
 
 ## 内容
 
-### 高级GEO矿机 :id=advanced-geo-miner
+### 高级Geo矿机 :id=advanced-geo-miner
 
 [GEO 矿机](https://slimefun-wiki.guizhanss.cn/GEO-Miner)的升级版。
 
@@ -39,28 +39,28 @@
 **效率**: 3,600 J/s  
 **可存储**: 90,000 J
 
-### 高级自动附魔机 :id=advanced-enchanter
+### 高级附魔机 :id=advanced-enchanter
 
 [自动附魔机](https://slimefun-wiki.guizhanss.cn/Auto-Enchanter)的升级版。
 
 **速度**: 5x  
 **电力消耗**: 360 J/s
 
-### 高级自动祛魔机 :id=advanced-disenchanter
+### 高级祛魔机 :id=advanced-disenchanter
 
 [自动祛魔机](https://slimefun-wiki.guizhanss.cn/Auto-Disenchanter)的升级版。
 
 **速度**: 5x  
 **电力消耗**: 360 J/s
 
-### 无尽自动附魔机 :id=infinity-enchanter
+### 无尽附魔机 :id=infinity-enchanter
 
 [自动附魔机](https://slimefun-wiki.guizhanss.cn/Auto-Enchanter)的升级版。
 
 **速度**: 75x  
 **电力消耗**: 12,000 J 每次使用
 
-### 无尽自动祛魔机 :id=infinity-disenchanter
+### 无尽祛魔机 :id=infinity-disenchanter
 
 [自动祛魔机](https://slimefun-wiki.guizhanss.cn/Auto-Disenchanter)的升级版。
 

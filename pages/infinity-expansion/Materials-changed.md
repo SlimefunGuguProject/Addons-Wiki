@@ -2,7 +2,7 @@
 
 该分类包含用于制作机器的材料以及可用于部分机器的物品。
 
-[点击此处查看baoad版本的物品名称](./Materials)
+[点击此处查看原版的物品名称](./Materials)
 
 ## 目录 :id=table-of-contents
 

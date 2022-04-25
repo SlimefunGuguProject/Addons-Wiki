@@ -2,7 +2,7 @@
 
 该分类包含合成配方较为复杂的机器。部分机器为 Slimefun [电力机器](https://slimefun-wiki.guizhanss.cn/Electric-Machines)的升级版本。
 
-[点击此处查看ybw0014版本的物品名称](./Advanced-Machines-ybw0014)
+[点击此处查看魔改版的物品名称](./Advanced-Machines-changed)
 
 ## 目录 :id=table-of-contents
 
@@ -31,6 +31,7 @@
 - [高级太阳能板](./Solar-Generator)
 - [加强太阳能板](./Solar-Generator)
 - [虚空太阳能板](./Void-Panel)
+- [混凝土成型机](./Concrete-Molding-Machine)
 - [虚空电容](./Slimefun-Extension#void-capacitor)
 - [高级附魔机](./Slimefun-Extension#advanced-enchanter)
 - [高级驱魔机](./Slimefun-Extension#advanced-disenchanter)

@@ -1,6 +1,6 @@
 # 稳定器
 
-稳定器是末地系列机器之一[机器](./Machines)。  
+稳定器是末地系列[机器](./Machines)之一。  
 
 ## 使用
 
@@ -8,8 +8,9 @@
 
 ![稳定器](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/sr.png ':size=25%')  
 
-该机器需要在末地才能运行  
+**该机器需要在末地才能运行**
 左边放入材料，右边输出不稳定的锭
+
 不稳定的锭配方看粘液书  
 
 ## 信息

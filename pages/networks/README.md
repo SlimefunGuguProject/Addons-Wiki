@@ -1,4 +1,4 @@
-# 首页
+# 主页
 
 欢迎来到 Networks 的非官方中文 Wiki! 本 Wiki 由[ybw0014](https://github.com/ybw0014)维护。
 

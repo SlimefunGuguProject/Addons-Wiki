@@ -1,6 +1,6 @@
 # 粒子冷凝机
 
-粒子生产机是末地系列机器之一[机器](./Machines)。  
+粒子生产机是末地系列[机器](./Machines)之一。  
 
 ## 使用
 
@@ -8,8 +8,9 @@
 
 ![粒子冷凝机](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/transc-endence/qar.png ':size=25%')  
 
-该机器需要在末地才能运行  
+**该机器需要在末地才能运行**
 用于生产冷凝粒子  
+
 需要放入两个方向相对的粒子  
 （例如Up和Down，Left和Right） 
 
