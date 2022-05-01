@@ -9,6 +9,9 @@ InfinityExpansion 是一个包含大量游戏后期物品的 Slimefun4 附属插
 
 ## 教程
 
+- [下载与安装](./Install)
+- [常见问题](./FAQ)
+
 ## 分类
 
 - [基础材料](./Materials)

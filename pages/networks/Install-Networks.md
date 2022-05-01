@@ -4,7 +4,7 @@
 
 Networks 原版: [源代码](https://github.com/Sefiraat/Networks) | [下载](https://thebusybiscuit.github.io/builds/Sefiraat/Networks/master/)
 
-Networks 汉化版: [源代码](https://github.com/GuizhanCraft/Networks-CN) | [下载](https://builds.guizhanss.net/ybw0014/Networks-CN/master)
+Networks 汉化版: [源代码](https://github.com/SlimefunGuguProject/Networks) | [下载](https://builds.guizhanss.net/ybw0014/Networks/master)
 
 # 安装 :id=install
 
