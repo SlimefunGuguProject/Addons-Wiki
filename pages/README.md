@@ -4,22 +4,17 @@
 如果你想访问Slimefun的非官方中文Wiki,请[点击这里](https://slimefun-wiki.guizhanss.cn/)。
 
 <!--这里按照插件英文名的字母顺序排序-->
-
-- [CrystamaeHistoria 魔法水晶编年史](/crystamae-historia/)
-- [ExoticGarden 异域花园](/exotic-garden/)
-- [FluffyMachines 蓬松机器](/fluffy-machines/)
-- [FoxyMachines 神秘科技](/foxy-machines/)
-- [InfinityExpansion 无尽科技](/infinity-expansion/)
-- [Networks 网络](/networks/)
-- [SlimeCustom 自定义类粘液附属](/slimecustom/)
-- [SlimeTinker 粘液匠魂](/slime-tinker/)
-- [TranscEndence 末地科技](/transc-endence/)
-
-## 自定义类附属合集
-
-这里包含了所有自定义类附属的Wiki：[点击访问](./custom-plugins/)
-
-- [SlimeCustomizer 自定义粘液附属](./custom-plugins/Slime-Customizer)
-- [SlimefunAdvancements 粘液科技进度](./custom-plugins/Slimefun-Advancements)
-- [SlimefunNukes 粘液核弹](./custom-plugins/Slimefun-Nukes)
-- [SfMobDrops 生物掉落](./custom-plugins/Sf-Mob-Drops)
+| 英文名称 | 中文名称 | Wiki链接 |
+| ------ | ------- | ------- |
+| CrystamaeHistoria | 魔法水晶编年史 | [点击访问](/crystamae-historia/) |
+| ExoticGarden | 异域花园 | [点击访问](/exotic-garden/) |
+| FluffyMachines | 蓬松机器 | [点击访问](/fluffy-machines/) |
+| FoxyMachines | 神秘科技 | [点击访问](/foxy-machines/) |
+| InfinityExpansion | 无尽科技 | [点击访问](/infinity-expansion/) |
+| Networks | 网络 | [点击访问](/networks/) |
+| SfMobDrops | 生物掉落 | [点击访问](/custom-plugins/Sf-Mob-Drops) |
+| SlimeCustomizer | 自定义粘液附属 | [点击访问](/custom-plugins/Slime-Customizer) |
+| SlimefunAdvancements | 粘液科技进度 | [点击访问](/custom-plugins/Slimefun-Advancements) |
+| SlimefunNukes | 粘液核弹 | [点击访问](/custom-plugins/Slimefun-Nukes) |
+| SlimeTinker | 粘液匠魂 | [点击访问](/slime-tinker/) |
+| TranscEndence | 末地科技 | [点击访问](/transc-endence/) |
