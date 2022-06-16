@@ -7,6 +7,7 @@
 | 英文名称 | 中文名称 | Wiki链接 |
 | ------ | ------- | ------- |
 | CrystamaeHistoria | 魔法水晶编年史 | [点击访问](/crystamae-historia/) |
+| DynaTech | 动力科技 | [点击访问](/dyna-tech/) |
 | ExoticGarden | 异域花园 | [点击访问](/exotic-garden/) |
 | FluffyMachines | 蓬松机器 | [点击访问](/fluffy-machines/) |
 | FoxyMachines | 神秘科技 | [点击访问](/foxy-machines/) |
