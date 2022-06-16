@@ -1,0 +1,16 @@
+- **熔岩之息**
+- [主页](./)
+- 生物
+    - [下界商人](./Nether-Merchants)
+- 物品
+    - [下界催化剂](./Nether-Catalyst)
+    - [熔岩锻造厂基座](./Nether-Forge#pedestal)
+    - [岩浆罐](./Nether-Forge#magma-tank)
+    - [岩浆调谐头盔](./Attuned-Armor)
+    - [岩浆调谐胸甲](./Attuned-Armor)
+    - [岩浆调谐护腿](./Attuned-Armor)
+    - [岩浆调谐靴子](./Attuned-Armor)
+    - [传送门之星](./Portal-Star)
+    - [燃烧药剂](./Combustion-Potion)
+- 多方块结构
+    - [熔岩锻造厂](./Nether-Forge)
