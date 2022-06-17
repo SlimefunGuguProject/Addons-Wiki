@@ -1,7 +1,7 @@
 - **动力科技**
 - [主页](./)
 - 教程
-    - [下载与安装](./Install)
+    - [下载与安装](/Install#DynaTech)
 - 分类
     - [资源](./Resources)
     - [工具](./Tools)
