@@ -50,7 +50,7 @@
 | 燃烧 (CO) | 有(工具等级 * 5)%的几率让敌人着火 | 磁钢 | 手柄 | Infinity Expansion |
 | 燃烧 II | 有(工具等级 * 10)%的几率让敌人着火更长时间 | 镁奇点 | 工具头 | Infinity Expansion |
 | 炽热 | 可熔炼掉落物 | 科林斯青铜 | 工具头 | Slimefun |
-| 炽热 (CO) | 可熔炼掉落物 | 镁合金 | 手柄 | Infinity Expansion |
+| 炽热 (CO) | 可熔炼掉落物 | 磁金 | 手柄 | Infinity Expansion |
 | 灵活 | 仅在工具未损坏时有效，减少50%承受伤害，消耗与原始伤害数值相同的耐久 | 强化软钢 | 手柄 | Slimefun Warfare |
 | 幸运 | 获得双倍掉落物，可与青金石模组叠加 | 时运奇点 | 工具头 | Infinity Expansion |
 | 绑定 | 工具无法被丢弃，也不会在死亡时掉落 | 焊锡 | 手柄 | Slimefun |
@@ -80,7 +80,7 @@
 | 蚂蟥 II | 获得生命提升II效果 | 铅奇点 | 手柄 | Infinity Expansion |
 | 电棍 | 有几率在命中生物时召唤闪电 | 红石合金 | 手柄 | Slimefun |
 | 轻量 | 增加50%工具经验获取，获得速度效果 | 钢 | 手柄 | Slimefun |
-| 宽宏大量 | 别再丢东西了! | 镁合金 | 工具头 | Infinity Expansion |
+| 宽宏大量 | 别再丢东西了! | 磁金 | 工具头 | Infinity Expansion |
 | 磁铁 | 随机捡起附近5格范围内的物品 | 镁 | 手柄 | Slimefun |
 | 磁铁 II | 随机捡起附近10格范围内的物品 | 镁奇点 | 手柄 | Infinity Expansion |
 | 幸运 | 减少50%输出伤害，获得幸运效果 | 锡 | 工具头 | Slimefun |

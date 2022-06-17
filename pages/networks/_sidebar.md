@@ -1,7 +1,7 @@
 - **网络**
 - [主页](./)
 - 教程
-    - [下载与安装](./Install-Networks)
+    - [下载与安装](/Install#Networks)
     - [入门](./Getting-Started)
     - [存储与取出机制](./Network-Mechanism)
 - 分类

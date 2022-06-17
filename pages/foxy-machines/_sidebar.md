@@ -1,6 +1,7 @@
 - **神秘科技**
-- [主页](./Home)
+- [主页](./)
 - 教程
+    - [下载与安装](/Install#FoxyMachines)
     - [伤害类型](./Damage)
     - [视频教程](./Tutorials)
 - 分类

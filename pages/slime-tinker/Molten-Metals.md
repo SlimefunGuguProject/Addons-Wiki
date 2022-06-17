@@ -8,7 +8,7 @@
 
 目前支持以下附属插件中的金属:
 
-- InfinityExpansion 无尽科技
+- InfinityExpansion 无尽贪婪
 - LiteXpansion 工业
 - DynaTech 动力科技
 - SlimefunWarfare 战争工艺

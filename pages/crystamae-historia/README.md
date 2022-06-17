@@ -2,7 +2,8 @@
 
 欢迎来到 CrystamaeHistoria 的非官方中文 Wiki! 本 Wiki 由[ybw0014](https://github.com/ybw0014)维护。
 
-CrystamaeHistoria的非官方中文名为魔法水晶编年史。[点此下载](./Install)汉化版。
+CrystamaeHistoria的非官方中文名为魔法水晶编年史。  
+[点击此处](/Install#CrystamaeHistoria)下载魔法水晶编年史。
 
 ---
 
@@ -16,7 +17,7 @@ CrystamaeHistoria的非官方中文名为魔法水晶编年史。[点此下载](
 
 ## 教程
 
-- [下载与安装](./Install)
+- [下载与安装](/Install#CrystamaeHistoria)
 - [法术制作流程](./Spell-Crafting)
 - [自动化魔法水晶生产](./Automate-Crystamae)
 

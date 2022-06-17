@@ -18,7 +18,7 @@
 
 ## 教程 :id=tutorials
 
-- [下载与安装](./Install-ExoticGarden)
+- [下载与安装](/Install#ExoticGarden)
 - [入门](./Getting-Started)
 
 ## 分类 :id=categories

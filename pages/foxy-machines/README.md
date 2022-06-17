@@ -2,7 +2,8 @@
 
 欢迎来到 FoxyMachines 非官方中文 Wiki! 本 Wiki 由 [ybw0014](https://github.com/ybw0014) 维护。
 
-FoxyMachines 由 GallowsDove 制作，由 ybw0014 汉化，其非官方中文名为 神秘科技。[点此下载](https://builds.guizhanss.net/ybw0014/FoxyMachines-CN/master)神秘科技。
+FoxyMachines 由 GallowsDove 制作，由 ybw0014 汉化，其非官方中文名为 神秘科技。  
+[点此下载](/Install#FoxyMachines)神秘科技汉化版。
 
 ---
 
@@ -10,6 +11,7 @@ FoxyMachines 由 GallowsDove 制作，由 ybw0014 汉化，其非官方中文名
 
 ## 教程
 
+- [下载与安装](/Install#FoxyMachines)
 - [伤害类型](./Damage)
 - [视频教程](./Tutorials)
 

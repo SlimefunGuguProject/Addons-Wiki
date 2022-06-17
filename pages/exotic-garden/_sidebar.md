@@ -1,7 +1,7 @@
 - **异域花园**
 - [主页](./)
 - 教程
-    - [下载与安装](./Install-ExoticGarden)
+    - [下载与安装](/Install#ExoticGarden)
     - [入门](./Getting-Started)
 - 分类
     - [植物与水果](./Plants-and-Fruits)

@@ -47,7 +47,7 @@
 | 附魔 | 防具升级时获得随机附魔 | 银 | 盔甲接合物 | Slimefun |
 | 附魔 II | 防具升级时获得1-3个随机附魔 | 银奇点 | 盔甲接合物 | Infinity Expansion |
 | 逃脱 | 在受到伤害时随机传送到附近(10秒冷却时间) | 铝黄铜 | 盔甲接合物 | Slimefun |
-| 逃脱 (CO) | 在受到伤害时随机传送到附近(10秒冷却时间) | 镁合金 | 盔甲板 | Infinity Expansion |
+| 逃脱 (CO) | 在受到伤害时随机传送到附近(10秒冷却时间) | 磁金 | 盔甲板 | Infinity Expansion |
 | 更加高级 | Advanced Modifier level +1 per piece (max +5) (开发中的特性，暂不翻译) | 高级合金 | 盔甲板 | LiteXpansion |
 | 有经验的 | 增加10%玩家经验获取与工具经验获取 | 精金 | 盔甲接合物 | Infinity Expansion |
 | 有经验的 (CO) | 增加10%玩家经验获取与工具经验获取 | 合金 | 盔甲板 | LiteXpansion |
@@ -91,7 +91,7 @@
 | 抗毒 | 免疫中毒效果 | 锡 | 盔甲板 | Slimefun |
 | 抗毒 II | 免疫中毒、饥饿、虚弱效果，中毒会治疗你 | 锡奇点 | 盔甲板 | Infinity Expansion |
 | 衔尾蛇 | 有20%的几率反弹承受的伤害 | 无尽 | 盔甲接合物 | Infinity Expansion |
-| 有氧 | 你可以...在水下呼吸了...算是吧 (免疫溺水伤害) | 镁合金 | 盔甲接合物 | Infinity Expansion |
+| 有氧 | 你可以...在水下呼吸了...算是吧 (免疫溺水伤害) | 磁金 | 盔甲接合物 | Infinity Expansion |
 | 部分衰变 | 有几率随机对周围生物造成伤害，不会致死 | 锇高温合金 | 盔甲接合物 | Slimefun Warfare |
 | 可悲 | 不要穿上这件盔甲，它看起来一点也不安全。（受到伤害时有5%的几率死亡) 增加400%玩家经验获取 | 废料 | 盔甲板 | LiteXpansion |
 | 虚空行者 | 虚空不再是你的敌人 (落入虚空时自动传送至当前位置向上200格的位置) | 虚空 | 盔甲板 | Infinity Expansion |
