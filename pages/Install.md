@@ -11,6 +11,12 @@ CrystamaeHistoria 原版: [源代码](https://github.com/Sefiraat/CrystamaeHisto
 
 魔法水晶编年史 汉化版: [源代码](https://github.com/SlimefunGuguProject/CrystamaeHistoria) | [下载](https://builds.guizhanss.net/SlimefunGuguProject/CrystamaeHistoria/master)
 
+### DynaTech 动力科技 :id=DynaTech
+
+DynaTech 原版: [源代码](https://github.com/ProfElements/DynaTech) | [下载](https://thebusybiscuit.github.io/builds/ProfElements/DynaTech/master/)
+
+动力科技 汉化版: [源代码](https://github.com/SlimefunGuguProject/DynaTech) | [下载](https://builds.guizhanss.net/ybw0014/DynaTech/master)
+
 ### ExoticGarden 异域花园 :id=ExoticGarden
 
 ExoticGarden 原版: [源代码](https://github.com/TheBusyBiscuit/ExoticGarden) | [下载](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/ExoticGarden/master/)
