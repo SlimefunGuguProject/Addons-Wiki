@@ -4,21 +4,21 @@
 
 ## 目录 :id=table-of-contents
 
-- [生物模拟室 / 模拟空间](#mob-simulation-chamber)
-- [生物芯片注入器 / 模拟器合成机](#data-infuser)
-- [生物芯片 / 模拟器](#mob-data-card)
+- [生物模拟室](#mob-simulation-chamber)
+- [生物芯片注入器](#data-infuser)
+- [生物芯片](#mob-data-card)
 
 ## 内容 :id=contents
 
-### 生物模拟室 / 模拟空间 :id=mob-simulation-chamber
+### 生物模拟室 :id=mob-simulation-chamber
 
 生物模拟室是产出生物掉落物的机器，需要放入生物芯片来激活。
 
-### 生物芯片注入器 / 模拟器合成机 :id=data-infuser
+### 生物芯片注入器 :id=data-infuser
 
 生物芯片注入器是制作生物芯片的机器。
 
-### 生物芯片 / 模拟器 :id=mob-data-card
+### 生物芯片 :id=mob-data-card
 
 不同类型的生物芯片可以产出各种生物掉落物，你可以在生物芯片的配方下方查看该芯片可以产出的物品。  
 使用生物芯片注入器来合成可用的生物芯片，然后放入生物模拟室中使用。
@@ -26,10 +26,9 @@
 #### 产物以及产出概率
 
 不同产物的生成几率不同，你可以在这里查看。  
-这些数据可能会随着插件更新失效，具体数据以代码为准。
+这些数据是从源代码中提取出来的，随时可能因为插件更新而失效，仅供参考。
 
-游戏内指南中存在，而下方未列出的生物芯片可能是新版本中添加的或其他附属插件添加的。  
-例如：DynaTech会添加幻翼和恼鬼的生物芯片。
+当服务器中同时安装了 DynaTech 动力科技 时，会有2种新的模拟器。[查看详情](/dyna-tech/Integrations) 
 
 <details>
 <summary>僵尸</summary>

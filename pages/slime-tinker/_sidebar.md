@@ -1,7 +1,7 @@
 - **粘液匠魂**
 - [主页](./)
 - 教程
-    - [下载与安装](./Install-SlimeTinker)
+    - [下载与安装](/Install#SlimeTinker)
     - [入门](./Getting-Started)
 - 分类
     - [工作站](./Workstations)

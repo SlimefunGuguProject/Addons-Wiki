@@ -2,7 +2,7 @@
 
 欢迎来到 Networks 的非官方中文 Wiki! 本 Wiki 由[ybw0014](https://github.com/ybw0014)维护。
 
-网络将作为Networks的非官方中文名。[点此下载](./Install-Networks)汉化版网络。
+网络将作为Networks的非官方中文名。[点此下载](/Install#Networks)网络汉化版。
 
 ---
 
@@ -22,7 +22,7 @@
 
 ## 教程
 
-- [下载与安装](./Install-Networks)
+- [下载与安装](/Install#Networks)
 - [入门](./Getting-Started)
 - [存储与取出机制](./Network-Mechanism)
 

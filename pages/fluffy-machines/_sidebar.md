@@ -1,7 +1,7 @@
 - **蓬松机器**
 - [主页](./)
 - 教程
-    - [下载与安装](./Install)
+    - [下载与安装](/Install#FluffyMachines)
 - 分类
     - [发电机](./Generators)
     - [机器](./Machines)
