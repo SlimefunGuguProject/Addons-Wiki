@@ -9,21 +9,21 @@
 [GEO 矿机](https://slimefun-wiki.guizhanss.cn/GEO-Miner)的升级版。
 
 **速度**: 4x  
-**电力消耗**: 240 J/s
+**电力消耗**: 120 J/t
 
 ### 高级冶炼炉 :id=advanced-smeltery
 
 [电力冶炼炉](https://slimefun-wiki.guizhanss.cn/Electric-Smeltery)的升级版。
 
 **速度**: 24x  
-**电力消耗**: 480 J/s
+**电力消耗**: 240 J/t
 
 ### 高级充电台 :id=advanced-charger
 
 [充电台](https://slimefun-wiki.guizhanss.cn/Charging-Bench)的升级版。
 
 **速度**: 30x  
-**电力消耗**: 360 J/s
+**电力消耗**: 180 J/t
 
 ### 无尽充电台 :id=infinity-charger
 
@@ -36,7 +36,7 @@
 
 [下界之星反应堆](https://slimefun-wiki.guizhanss.cn/Reactors)的升级版。
  
-**效率**: 3,600 J/s  
+**效率**: 1,800 J/t  
 **可存储**: 90,000 J
 
 ### 高级附魔机 :id=advanced-enchanter
@@ -44,14 +44,14 @@
 [自动附魔机](https://slimefun-wiki.guizhanss.cn/Auto-Enchanter)的升级版。
 
 **速度**: 5x  
-**电力消耗**: 360 J/s
+**电力消耗**: 180 J/t
 
 ### 高级祛魔机 :id=advanced-disenchanter
 
 [自动祛魔机](https://slimefun-wiki.guizhanss.cn/Auto-Disenchanter)的升级版。
 
 **速度**: 5x  
-**电力消耗**: 360 J/s
+**电力消耗**: 180 J/t
 
 ### 无尽附魔机 :id=infinity-enchanter
 

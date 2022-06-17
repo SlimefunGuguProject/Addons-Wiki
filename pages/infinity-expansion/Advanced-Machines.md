@@ -22,6 +22,7 @@
 - [分解机](./Decompressor)
 - [装备材质转换器](./Gear-Transformer)
 - [地理资源矿机](./Geo-Quarry)
+- [混凝土浇筑机](./Concrete-Molding-Machine)
 - [基础矿机](./Quarries)
 - [高级矿机](./Quarries)
 - [虚空矿机](./Quarries)
