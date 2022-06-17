@@ -9,7 +9,7 @@
 
 目前网络监视器支持：
 
-- [无尽科技 - 存储单元](/infinity-expansion/Barrels)
+- [无尽贪婪 - 存储单元](/infinity-expansion/Barrels)
 - [网络 - 量子存储](./Quantum-Storage)
 
 网络监视器是一个带有方向选择的网络方块，所以你可以用[网络配置器](./Network-Configurator)来复制方向设置。

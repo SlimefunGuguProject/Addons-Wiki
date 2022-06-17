@@ -4,7 +4,7 @@
 
 ## 设置
 
-你可以在无尽科技的配置文件 (`/plugins/InfinityExpansion/config.yml`) 中更改矿机相关的配置:
+你可以在无尽贪婪的配置文件 (`/plugins/InfinityExpansion/config.yml`) 中更改矿机相关的配置:
 
 在`quarry-options`中，你可以调整：
 

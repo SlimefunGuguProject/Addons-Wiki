@@ -1,10 +1,10 @@
 # 主页 :id=home
 
-![](https://cdn.jsdelivr.net/gh/SlimefunGuguProject/SlimeTinker/images/logo/logo_large.png ':size=50%')
+![粘液匠魂logo](https://cdn.jsdelivr.net/gh/SlimefunGuguProject/SlimeTinker/images/logo/logo_large.png ':size=50%')
 
 欢迎来到 SlimeTinker 的非官方中文 Wiki! 本 Wiki 由[ybw0014](https://github.com/ybw0014)维护。
 
-汉化版SlimeTinker中，将使用**粘液匠魂**、**匠魂**来指代SlimeTinker。[点此下载](./Install-SlimeTinker)汉化版粘液匠魂。
+汉化版SlimeTinker中，将使用**粘液匠魂**、**匠魂**来指代SlimeTinker。[点此下载](/Install#SlimeTinker)粘液匠魂汉化版。
 
 ----
 

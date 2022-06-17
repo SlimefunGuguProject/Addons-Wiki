@@ -10,11 +10,11 @@
 | ExoticGarden | 异域花园 | [点击访问](/exotic-garden/) |
 | FluffyMachines | 蓬松机器 | [点击访问](/fluffy-machines/) |
 | FoxyMachines | 神秘科技 | [点击访问](/foxy-machines/) |
-| InfinityExpansion | 无尽科技 | [点击访问](/infinity-expansion/) |
+| InfinityExpansion | 无尽贪婪 | [点击访问](/infinity-expansion/) |
 | Networks | 网络 | [点击访问](/networks/) |
-| SfMobDrops | 生物掉落 | [点击访问](/custom-plugins/Sf-Mob-Drops) |
+| SfMobDrops | 粘液科技生物掉落 | [点击访问](/sf-mob-drops/) |
 | SlimeCustomizer | 自定义粘液附属 | [点击访问](/custom-plugins/Slime-Customizer) |
-| SlimefunAdvancements | 粘液科技进度 | [点击访问](/custom-plugins/Slimefun-Advancements) |
+| SlimefunAdvancements | 粘液科技进度 | [点击访问](/slimefun-advancements/) |
 | SlimefunNukes | 粘液核弹 | [点击访问](/custom-plugins/Slimefun-Nukes) |
 | SlimeTinker | 粘液匠魂 | [点击访问](/slime-tinker/) |
 | TranscEndence | 末地科技 | [点击访问](/transc-endence/) |

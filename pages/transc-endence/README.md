@@ -4,7 +4,7 @@
 
 ## 教程
 
-- [下载与安装](./Install)
+- [下载与安装](/Install#TranscEndence)
 
 ## 分类
 

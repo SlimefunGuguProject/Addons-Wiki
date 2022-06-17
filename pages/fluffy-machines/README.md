@@ -8,7 +8,7 @@ FluffyMachines 的非官方中文名称为蓬松机器。
 
 ## 教程
 
-- [下载与安装](./Install)
+- [下载与安装](/Install#FluffyMachines)
 
 ## 分类
 
