@@ -1,4 +1,6 @@
 - **EMC科技**
 - [主页](./)
 - [下载与安装](/Install#EMCTech)
-- 分类
+- [什么是EMC?](./What-is-EMC)
+- [EMC计算](./EMC-Calculations)
+- [平衡性说明](./Balancing)
