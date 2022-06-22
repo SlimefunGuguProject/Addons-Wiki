@@ -17,6 +17,12 @@ DynaTech 原版: [源代码](https://github.com/ProfElements/DynaTech) | [下载
 
 动力科技 汉化版: [源代码](https://github.com/SlimefunGuguProject/DynaTech) | [下载](https://builds.guizhanss.net/ybw0014/DynaTech/master)
 
+### EMCTech EMC科技 :id=EMCTech
+
+EMCTech 原版: [源代码](https://github.com/Sefiraat/EMCTech) | [下载](https://thebusybiscuit.github.io/builds/Sefiraat/EMCTech/master/)
+
+EMC科技 汉化版: [源代码](https://github.com/SlimefunGuguProject/EMCTech) | [下载](https://builds.guizhanss.net/SlimefunGuguProject/EMCTech/master)
+
 ### ExoticGarden 异域花园 :id=ExoticGarden
 
 ExoticGarden 原版: [源代码](https://github.com/TheBusyBiscuit/ExoticGarden) | [下载](https://thebusybiscuit.github.io/builds/TheBusyBiscuit/ExoticGarden/master/)
