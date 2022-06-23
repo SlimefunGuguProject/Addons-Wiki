@@ -14,6 +14,7 @@
 | FoxyMachines | 神秘科技 | [点击访问](/foxy-machines/) |
 | InfinityExpansion | 无尽贪婪 | [点击访问](/infinity-expansion/) |
 | Magmanimous | 熔岩之息 | [点击访问](/magmanimous/) |
+| Netheopoiesis | 下界乌托邦 | [点击访问](/netheopoiesis/) |
 | Networks | 网络 | [点击访问](/networks/) |
 | SfMobDrops | 粘液科技生物掉落 | [点击访问](/sf-mob-drops/) |
 | SlimeCustomizer | 自定义粘液附属 | [点击访问](/custom-plugins/Slime-Customizer) |
