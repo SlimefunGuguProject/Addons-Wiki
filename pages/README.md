@@ -21,3 +21,4 @@
 | SlimefunNukes | 粘液核弹 | [点击访问](/custom-plugins/Slimefun-Nukes) |
 | SlimeTinker | 粘液匠魂 | [点击访问](/slime-tinker/) |
 | TranscEndence | 末地科技 | [点击访问](/transc-endence/) |
+| WilderNether | 迷狱生机 | [点击访问](/wilder-nether/) |
