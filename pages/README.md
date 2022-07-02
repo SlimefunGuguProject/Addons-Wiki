@@ -16,7 +16,7 @@
 | Magmanimous | 熔岩之息 | [点击访问](/magmanimous/) |
 | Networks | 网络 | [点击访问](/networks/) |
 | SfMobDrops | 粘液科技生物掉落 | [点击访问](/sf-mob-drops/) |
-| SlimeCustomizer | 自定义粘液附属 | [点击访问](/custom-plugins/Slime-Customizer) |
+| SlimeCustomizer | 自定义粘液附属 | [点击访问](/slime-customizer/) |
 | SlimefunAdvancements | 粘液科技进度 | [点击访问](/slimefun-advancements/) |
 | SlimefunNukes | 粘液核弹 | [点击访问](/custom-plugins/Slimefun-Nukes) |
 | SlimeTinker | 粘液匠魂 | [点击访问](/slime-tinker/) |
