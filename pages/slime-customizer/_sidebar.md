@@ -1,0 +1,18 @@
+- **自定义粘液附属**
+- [主页](./)
+- [下载与安装](/Install#SlimeCustomizer)
+- 配置
+    - [分类](./Categories)
+    - [生物掉落](./Mob-Drops)
+    - [物品](./Items)
+    - [机器](./Machines)
+    - [发电机](./Generators)
+    - [太阳能发电机](./Solar-Generators)
+    - [研究](./Researches)
+- 其他说明
+    - [指令](./Commands)
+    - [保存的物品](./Saved-Items)
+    - [头颅](./Skull-items)
+    - [颜色代码](./Color-codes)
+    - [物品注册](./Registering)
+    - [合成配方](./Crafting-Recipe)
