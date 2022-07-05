@@ -5,6 +5,7 @@
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
     - [物品](./Items)
+    - [电容](./Capacitors)
     - [机器](./Machines)
     - [发电机](./Generators)
     - [太阳能发电机](./Solar-Generators)

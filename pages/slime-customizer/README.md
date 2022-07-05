@@ -26,6 +26,7 @@ SlimeCustomizer 是一个 Slimefun 附属，可以让服主只通过配置文件
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
     - [物品](./Items)
+    - [电容](./Capacitors)
     - [机器](./Machines)
     - [发电机](./Generators)
     - [太阳能发电机](./Solar-Generators)
