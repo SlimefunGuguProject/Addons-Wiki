@@ -4,6 +4,7 @@
 - 配置
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
+    - [自然资源（GEO）](./Geo-Resources)
     - [物品](./Items)
     - [电容](./Capacitors)
     - [机器](./Machines)

@@ -18,23 +18,3 @@ SlimeCustomizer 是一个 Slimefun 附属，可以让服主只通过配置文件
 ![_0L(9MJ`3K0{DQ)VI%~X$`Y](https://user-images.githubusercontent.com/83174104/163699896-fa55a9ef-499d-4f81-b9f6-76690414eed1.png)
 ![$JRUW4B2WB7Z05SI{_CMFCS](https://user-images.githubusercontent.com/83174104/163699903-f654c562-048e-48b0-83a8-8f128e9f5fce.png)
 ![TSU{(1L}NSX6JZ~5 N5)%LN](https://user-images.githubusercontent.com/83174104/163699914-a885184e-53f5-4adb-9da8-f49600f48a50.png)
-
-## 目录
-
-- [安装与使用](./Install)
-- 配置
-    - [分类](./Categories)
-    - [生物掉落](./Mob-Drops)
-    - [物品](./Items)
-    - [电容](./Capacitors)
-    - [机器](./Machines)
-    - [发电机](./Generators)
-    - [太阳能发电机](./Solar-Generators)
-    - [研究](./Researches)
-- 其他说明
-    - [指令](./Commands)
-    - [保存的物品](./Saved-Items)
-    - [头颅](./Skull-items)
-    - [颜色代码](./Color-codes)
-    - [物品注册](./Registering)
-    - [合成配方](./Crafting-Recipe)
