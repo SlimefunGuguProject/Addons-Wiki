@@ -1,4 +1,8 @@
-# 武器
+# 魔法武器
+
+该分类包含Bump的武器。
+
+## 目录
 
 - [神罚之弓](./Gods-Punishment-Bow)
 - [凋零弓](./Withered-Bow)
