@@ -6,6 +6,7 @@
 <!--这里按照插件英文名的字母顺序排序-->
 | 英文名称 | 中文名称 | Wiki链接 |
 | ------ | ------- | ------- |
+| Bump | Bump魔法 | [点击访问](/bump/) |
 | CrystamaeHistoria | 魔法水晶编年史 | [点击访问](/crystamae-historia/) |
 | DynaTech | 动力科技 | [点击访问](/dyna-tech/) |
 | ExoticGarden | 异域花园 | [点击访问](/exotic-garden/) |

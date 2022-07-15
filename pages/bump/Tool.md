@@ -2,7 +2,9 @@
 
 该分类包含Bump的工具。
 
-## 内容
+## 目录
 
 * [摸金铲](./Getting-Gold-Shovel)
-* [三种鉴定符](../items/random-equipment.md)
+* [武器品质鉴定符](./Quality-Identifiers)
+* [护甲品质鉴定符](./Quality-Identifiers)
+* [马铠品质鉴定符](./Quality-Identifiers)
