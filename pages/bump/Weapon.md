@@ -14,4 +14,4 @@
 - [灵魂之剑](./Soul-Sword)
 - [破天剑](./Heaven-Breaking-Sword)
 - [斩魔剑](./Demon-Slayer-Sword)
-- 破天斩魔剑
+- [破天斩魔剑](./Heaven-demon-Crumble-Sword)
