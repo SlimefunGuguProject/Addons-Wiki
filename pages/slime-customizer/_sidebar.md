@@ -1,7 +1,7 @@
 - **自定义粘液附属**
 - [主页](./)
 - [下载与安装](/Install#SlimeCustomizer)
-- 配置
+- 基础配置
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
     - [自然资源（GEO）](./Geo-Resources)
@@ -13,8 +13,23 @@
     - [研究](./Researches)
 - 其他说明
     - [指令](./Commands)
-    - [保存的物品](./Saved-Items)
     - [头颅](./Skull-items)
     - [颜色代码](./Color-codes)
     - [物品注册](./Registering)
     - [合成配方](./Crafting-Recipe)
+- 进阶教程
+    - [进阶教程介绍](./Introduction)
+    - [保存的物品](./Saved-Items)
+	- [引用后注册物品](./Post-Reference-Registered-Items)
+	- [保存物品原理](./Meta)
+	- [粘液物品特性继承](./Apply-Items)
+	- [特殊bug修复](./Bug)
+- 进阶自定义
+    - [自定义食品](./Foods)
+	- [自定义盔甲/武器](./Weapons-And-Armors)
+	- [武器技能与FN标签](./Skills)
+	- [自定义背包](./Bag)
+	- [引用其它插件/Mod物品](./Plugin-And-Mod)
+	- [粘液物品/机器换皮](./Skin)
+	- [总结](./General)
+	- [其它粘液自定义插件](./Other)

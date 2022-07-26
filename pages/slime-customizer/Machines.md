@@ -115,3 +115,5 @@ EXAMPLE_MACHINE:
 ?> 提示: 查看粘液科技物品ID，可在游戏内手持该粘液科技物品，输入`/sf id`以查看。你也可以在[粘液科技小助手](https://slimefun-helper.guizhanss.cn/)中查询。
 
 !> 每台机器只能有两种物品的输入/输出
+
+!> 若使机器无输出，在output处引用原版物品AIR，AIR的amount只能为0
