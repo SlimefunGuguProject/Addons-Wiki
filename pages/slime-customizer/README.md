@@ -4,9 +4,13 @@ SlimeCustomizer 是一个 Slimefun 附属，可以让服主只通过配置文件
 
 其非官方中文名为自定义粘液附属。[点击此处](/Install#SlimeCustomizer)下载自定义粘液附属汉化版。
 
+欢迎加入QQ群讨论：231200497
+
+本教程由 [haiman233](https://github.com/haiman233) 和 [ybw0014](https://github.com/ybw0014) 编写
+
 ## 展示
 
-*想要看看SlimeCustomizer的成果如何? 访问IP`wdsj.fit:6896`看看其中的海曼科技! 海曼科技就是用SlimeCustomizer编写而成的！或许海曼科技可以给你带来点启发！*
+*想要看看SlimeCustomizer的成果如何? 访问IP`wdsj.fit:6896`看看其中的天璇工艺! 天璇工艺就是用SlimeCustomizer编写而成的！或许天璇工艺可以给你带来点启发！*
 
 ![D01SE T6S)QY7 %D85AW0~M](https://user-images.githubusercontent.com/83174104/163699938-8d7c0084-34fd-4d99-9d77-b2454c883669.png)
 ![$$5S%`MFTE@G}_HC}7PVS}S](https://user-images.githubusercontent.com/83174104/163699824-97081e94-e31c-4f55-a5a4-3a66e2b68484.png)
