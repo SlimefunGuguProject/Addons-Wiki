@@ -34,11 +34,11 @@
 ```yaml
 EXAMPLE_ITEM:
   category: slime_customizer
-  type: SAVEDITEM
+  type: SAVEDITEM  # 注意此处需要修改为SAVEDITEM
   item-name: "&b保存物品示例(配置自动忽略名称)"
   item-lore:
   - "&7配置自动忽略lore"
-  item-id: DIRT
+  item-id: DIRT # 此处为保存物品的文件名
   item-amount: 1
   placeable: false
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -141,6 +141,6 @@ EXAMPLE_ITEM:
       amount: 1
 ```
 
-crafting-recipe以下是在配方中引用saveditem物品
+`crafting-recipe`以下是在配方中引用saveditem物品
 
 机器、电容、发电机、太阳能发电机同理
