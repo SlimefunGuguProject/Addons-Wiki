@@ -1,7 +1,9 @@
 - **Bump魔法**
 - [主页](./)
-- 信息
-    - [参与翻译](./Translation)
+- [参与翻译](./Translation)
+- 配置
+    - [主要配置](./config.yml)
+    - [鉴定类型配置](./appraise-types.yml)
 - 分类
     - [护甲](./Armor)
     - [食物](./Food)
