@@ -1,6 +1,7 @@
 - **自定义粘液附属**
 - [主页](./)
 - [下载与安装](/Install#SlimeCustomizer)
+- [常见问题/错误与解决方法](./Common-Issues)
 - 基础配置
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
@@ -23,7 +24,6 @@
 	- [引用后注册物品](./Post-Reference-Registered-Items)
 	- [保存物品原理](./Meta)
 	- [粘液物品特性继承](./Apply-Items)
-	- [特殊bug修复](./Bug)
 - 进阶自定义
     - [自定义食品](./Foods)
 	- [自定义盔甲/武器](./Weapons-And-Armors)
