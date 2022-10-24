@@ -30,7 +30,7 @@ EXAMPLE_GEO:
 | item-name | 自然资源的名称。<br>支持[颜色代码](./Color-codes)。 |
 | item-lore | 自然资源的描述。<br>支持[颜色代码](./Color-codes)。 |
 | item-id | 自然资源所使用的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](./Skull-Items)或保存的自然资源的ID。 |
-| max-deviation | 每个区块自然资源数量的最大偏差。 | 大于等于0的整数 |
+| max-deviation | 每个区块自然资源数量的最大偏差。 | 正整数 |
 | biome | 自然资源在各个生物群系的默认数量。<br>*可选，但biome与environment至少要有一个。* |
 | environment | 自然资源在各个世界类型的默认数量。<br>*可选，但biome与environment至少要有一个。* |
 
