@@ -18,4 +18,5 @@ basic:
 | 内容 | 描述 |
 | -------- | -------- |
 | basic | 这是分组的ID。<br>**只能用英文、数字、下划线!** |
-| `display` | 这是分组的展示物品。<br>详见[物品设置](./Item-Settings)。 |
+| `display` | **必须**。这是分组的展示物品。<br>详见[物品设置](./Item-Settings)。 |
+| `display` | *可选*。这是分组在原版进度界面中的背景，默认为基岩。你可以通过[mcasset.cloud网站](https://mcasset.cloud/)查询所有可用的背景（在`assets/minecraft/textures/block/`目录中）。 |
