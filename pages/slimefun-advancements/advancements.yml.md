@@ -221,6 +221,23 @@ portable_workbench:
 | -------- | -------- |
 | `entity` | **必须**。指定该条件所需的生物类型。<br>生物类型为`EntityType`小写加下划线的形式<br>(例如 `stray`, `cave_spider`, `glow_squid`, 等.) |
 | `amount` | *可选*。满足条件所需击杀的生物数量，默认为1。 |
+#### search 使用搜索功能 :id=search
+
+**类型**: `search`
+
+该类型的条件需要玩家使用粘液科技的搜索功能（可通过粘液科技指南书，或`/sf search`指令）来搜索指定字符。
+
+```yaml
+  criteria:
+    search_cargo:
+      name: "搜索货运"
+      type: search
+      search: "货运"
+```
+
+| 内容 | 描述 |
+| -------- | -------- |
+| `search` | **必须**。指定该条件所需的搜索字符。搜索内容需要与该字符完全一致，才可以完成。 |
 
 #### 更多条件 :id=more-criterion
 
