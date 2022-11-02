@@ -221,6 +221,7 @@ portable_workbench:
 | -------- | -------- |
 | `entity` | **必须**。指定该条件所需的生物类型。<br>生物类型为`EntityType`小写加下划线的形式<br>(例如 `stray`, `cave_spider`, `glow_squid`, 等.) |
 | `amount` | *可选*。满足条件所需击杀的生物数量，默认为1。 |
+
 #### search 使用搜索功能 :id=search
 
 **类型**: `search`
