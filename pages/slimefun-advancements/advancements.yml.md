@@ -13,6 +13,7 @@ portable_workbench:
     lore:
       - "使用一次便携工作台"
   name: "&a[便携合成]"
+  hidden: true
   criteria:
     interact:
       name: "使用一次便携工作台"
@@ -33,6 +34,7 @@ portable_workbench:
 | `group` | **必须**。这是该进度所属的进度组。<br>对应着[`groups.yml`](./groups.yml)中设置的分组ID。 |
 | `display` | **必须**。这是该进度的展示物品。<br>详见[物品设置](./Item-Settings)。 |
 | `name` | **必须**。这是该进度的显示名称。<br>会在完成进度后的公屏通知中展示，支持颜色代码`&`。<br>*建议: 使用与原版进度一致的格式。*<br>*例如:* `&a[便携合成]` |
+| `hidden` | **可选**。是否隐藏进度。<br>隐藏后进度将不再列表中显示，直到玩家完成进度后才会显示。 |
 | `criteria` | **必须**。这是该进度的完成条件。<br>详见[完成条件](#criteria)。 |
 | `rewards` | *可选*。这是该进度的完成奖励。<br>详见[奖励](#rewards)。 |
 
@@ -183,6 +185,14 @@ portable_workbench:
 | -------- | -------- |
 | `item` | **必须**。指定该条件所需的物品。<br>参考[物品设置](./Item-Settings)。 |
 | `amount` | *可选*。满足条件所需的物品数量，默认为1。 |
+
+#### break 破坏方块 :id=break
+
+**类型**: `break`
+
+该类型的条件需要玩家破坏指定方块。
+
+配置参数与`place`放置方块一致，因此不再赘述。
 
 #### research 完成研究 :id=research
 
