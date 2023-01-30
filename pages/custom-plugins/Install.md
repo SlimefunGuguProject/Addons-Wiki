@@ -24,6 +24,12 @@ SFMobDrops 原版: [源代码](https://github.com/WalshyDev/SFMobDrops) | [下�
 
 粘液科技生物掉落 汉化版: [源代码](https://github.com/SlimefunGuguProject/SFMobDrops) | [下载](https://builds.guizhanss.net/SlimefunGuguProject/SFMobDrops/main)
 
+---
+
+Drugfun 原版: [源代码](https://github.com/TheSilentPro/Drugfun) | 原版自行构建
+
+自定义医药用品 汉化版：[源代码](https://github.com/SlimefunGuguProject/Drugfun) | [下载](https://builds.guizhanss.net/SlimefunGuguProject/Drugfun/master)
+
 ## 安装 :id=install
 
 你需要同时安装 Slimefun 才能运行这些自定义类附属。如果你还没有安装 Slimefun，请查看[这篇文章](https://slimefun-wiki.guizhanss.cn/Installing-Slimefun)。

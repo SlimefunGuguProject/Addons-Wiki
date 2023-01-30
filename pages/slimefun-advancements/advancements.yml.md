@@ -13,6 +13,7 @@ portable_workbench:
     lore:
       - "使用一次便携工作台"
   name: "&a[便携合成]"
+  hidden: true
   criteria:
     interact:
       name: "使用一次便携工作台"
@@ -33,6 +34,7 @@ portable_workbench:
 | `group` | **必须**。这是该进度所属的进度组。<br>对应着[`groups.yml`](./groups.yml)中设置的分组ID。 |
 | `display` | **必须**。这是该进度的展示物品。<br>详见[物品设置](./Item-Settings)。 |
 | `name` | **必须**。这是该进度的显示名称。<br>会在完成进度后的公屏通知中展示，支持颜色代码`&`。<br>*建议: 使用与原版进度一致的格式。*<br>*例如:* `&a[便携合成]` |
+| `hidden` | **可选**。是否隐藏进度。<br>隐藏后进度将不在列表中展示，直到玩家完成进度后才会显示。 |
 | `criteria` | **必须**。这是该进度的完成条件。<br>详见[完成条件](#criteria)。 |
 | `rewards` | *可选*。这是该进度的完成奖励。<br>详见[奖励](#rewards)。 |
 
@@ -184,6 +186,14 @@ portable_workbench:
 | `item` | **必须**。指定该条件所需的物品。<br>参考[物品设置](./Item-Settings)。 |
 | `amount` | *可选*。满足条件所需的物品数量，默认为1。 |
 
+#### break 破坏方块 :id=break
+
+**类型**: `break`
+
+该类型的条件需要玩家破坏指定方块。
+
+配置参数与`place`放置方块一致，因此不再赘述。
+
 #### research 完成研究 :id=research
 
 **类型**: `research`
@@ -221,6 +231,24 @@ portable_workbench:
 | -------- | -------- |
 | `entity` | **必须**。指定该条件所需的生物类型。<br>生物类型为`EntityType`小写加下划线的形式<br>(例如 `stray`, `cave_spider`, `glow_squid`, 等.) |
 | `amount` | *可选*。满足条件所需击杀的生物数量，默认为1。 |
+
+#### search 使用搜索功能 :id=search
+
+**类型**: `search`
+
+该类型的条件需要玩家使用粘液科技的搜索功能（可通过粘液科技指南书，或`/sf search`指令）来搜索指定字符。
+
+```yaml
+  criteria:
+    search_cargo:
+      name: "搜索货运"
+      type: search
+      search: "货运"
+```
+
+| 内容 | 描述 |
+| -------- | -------- |
+| `search` | **必须**。指定该条件所需的搜索字符。搜索内容需要与该字符完全一致，才可以完成。 |
 
 #### 更多条件 :id=more-criterion
 

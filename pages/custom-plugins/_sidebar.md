@@ -7,3 +7,4 @@
     - [SlimefunAdvancements 粘液科技进度](./Slimefun-Advancements)
     - [SlimefunNukes 粘液核弹](./Slimefun-Nukes)
     - [SfMobDrops 生物掉落](./Sf-Mob-Drops)
+	- [Drugfun 自定义医药用品](./Drugfun)
