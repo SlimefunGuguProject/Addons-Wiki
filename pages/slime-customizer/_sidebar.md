@@ -1,6 +1,7 @@
 - **自定义粘液附属**
 - [主页](./)
 - [下载与安装](/Install#SlimeCustomizer)
+- [使用前声明](./Statement)
 - [常见问题/错误与解决方法](./Common-Issues)
 - 基础配置
     - [分类](./Categories)
