@@ -13,6 +13,7 @@
 | EMCTech | EMC科技 | [点击访问](/emc-tech/) |
 | FluffyMachines | 蓬松机器 | [点击访问](/fluffy-machines/) |
 | FoxyMachines | 神秘科技 | [点击访问](/foxy-machines/) |
+| GeneticChickengineering | 基因工程 | [点击访问](/geneticchickengineering/) |
 | InfinityExpansion | 无尽贪婪 | [点击访问](/infinity-expansion/) |
 | Magmanimous | 熔岩之息 | [点击访问](/magmanimous/) |
 | Networks | 网络 | [点击访问](/networks/) |
@@ -21,5 +22,6 @@
 | SlimefunAdvancements | 粘液科技进度 | [点击访问](/slimefun-advancements/) |
 | SlimefunNukes | 粘液核弹 | [点击访问](/custom-plugins/Slimefun-Nukes) |
 | SlimeTinker | 粘液匠魂 | [点击访问](/slime-tinker/) |
+| Supreme 2.0 | 至尊研究院 | [点击访问](/supreme/) |
 | TranscEndence | 末地科技 | [点击访问](/transc-endence/) |
 | WilderNether | 迷狱生机 | [点击访问](/wilder-nether/) |
