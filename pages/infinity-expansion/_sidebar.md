@@ -2,7 +2,7 @@
 - [主页](./)
 - 教程
     - [下载与安装](/Install#InfinityExpansion)
-	- [部分机器运行机制](./Operating-Mechanism)
+    - [部分机器运行机制](./Operating-Mechanism)
 - 分类
     - [基础材料](./Materials)
     - [基础机器](./Basic-Machines)
