@@ -6,7 +6,7 @@ SlimeCustomizer 是一个 Slimefun 附属，可以让服主只通过配置文件
 
 欢迎加入QQ群讨论：231200497
 
-请在使用本附属前详细地阅读**“使用前声明”**。
+请在使用本附属前详细地阅读[**《使用前声明》”**](./Statement)。
 
 本教程由 [haiman233](https://github.com/haiman233) 和 [ybw0014](https://github.com/ybw0014) 编写。
 
