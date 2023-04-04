@@ -5,6 +5,10 @@
 DynaTech的非官方中文名称为动力科技。该名称与机械动力无任何关联。  
 [点此下载](/Install#DynaTech)动力科技汉化版。
 
+本部分详尽教程取自b站up：[__W1thoutD0ubt](https://space.bilibili.com/88179140)
+
+已获得原作者授权
+
 ----
 
 ## 教程
