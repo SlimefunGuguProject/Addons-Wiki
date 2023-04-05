@@ -4,6 +4,9 @@
     - [下载与安装](/Install#Networks)
     - [入门](./Getting-Started)
     - [存储与取出机制](./Network-Mechanism)
+- 详细教程
+    - [第一章](./Page1)
+	- [第二章](./Page2)
 - 分类
     - [合成材料](./Materials)
     - [网络管理工具](./Tools)
