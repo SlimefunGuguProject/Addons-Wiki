@@ -25,3 +25,15 @@
 | Supreme 2.0 | 至尊研究院 | [点击访问](/supreme/) |
 | TranscEndence | 末地科技 | [点击访问](/transc-endence/) |
 | WilderNether | 迷狱生机 | [点击访问](/wilder-nether/) |
+
+# 视频教程
+
+我们在此整合了b站上一些附属的视频教程，可以供各位玩家进行参考
+
+- 无尽贪婪 [01](https://www.bilibili.com/video/BV1vY411L7uW/?spm_id_from=333.999.0.0) [02](https://www.bilibili.com/video/BV1zS4y1C78n/?spm_id_from=333.999.0.0) [03](https://www.bilibili.com/video/BV1br4y1h7dC/?spm_id_from=333.999.0.0) [04](https://www.bilibili.com/video/BV1k34y1C7sV/?spm_id_from=333.999.0.0) [05](https://www.bilibili.com/video/BV1Tb4y147Z1/?spm_id_from=333.999.0.0) [06](https://www.bilibili.com/video/BV13a41117dA/?spm_id_from=333.999.0.0)
+
+- 神秘科技 [01](https://www.bilibili.com/video/BV1t3411W7vW/?spm_id_from=333.999.0.0) [02](https://www.bilibili.com/video/BV1qZ4y1z7i9/?spm_id_from=333.999.0.0)
+
+- 网络 [01](https://www.bilibili.com/video/BV1vR4y1F77F/?spm_id_from=333.999.0.0) [02](https://www.bilibili.com/video/BV1Zb4y1H7Dm/?spm_id_from=333.999.0.0) [03](https://www.bilibili.com/video/BV1Lr4y1p7J5/?spm_id_from=333.999.0.0)
+
+- 匠魂 [01](https://www.bilibili.com/video/BV1Da411n7gq/?spm_id_from=333.999.0.0) [02](https://www.bilibili.com/video/BV1AV4y1J74c/?spm_id_from=333.999.0.0)
