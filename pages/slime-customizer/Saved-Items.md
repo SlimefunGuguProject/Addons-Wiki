@@ -149,9 +149,9 @@ EXAMPLE_ITEM:
 
 在使用saveditems时需要额外注意几点
 
-1、若要在配方或机器的输入输出引用`SAVEDITEM`时，建议先将此saveitem在`items.yml`文件里进行注册，赋予它一个粘液ID，否则会导致配方之间，输入输出之间的窜门(特别是相同物品仅nbt不同的时候)
+1、若要在配方或机器的输入输出中引用`SAVEDITEM`时，建议先将此saveditems在`items.yml`文件里进行注册，赋予它一个粘液ID，否则会导致**配方之间，输入输出之间**的窜门(特别是**相同物品仅nbt不同**的时候)
 
-这里举一个在海曼科技里的一个错误的例子:
+这里举一个在海曼科技里的**错误**示例:
 
 ```yaml
 HAIMAN_LIGHT_UPDATER:
@@ -525,9 +525,9 @@ HAIMAN_LIGHT_UPDATER:
           amount: 1
 ```
 
-这是一个错误的例子，输入输出直接引用了相同物品仅nbt不同的SAVEDITEM，这会导致输出产物混乱，并非你所编写的那样
+这是一个错误示例，输入输出直接引用了相同物品仅nbt不同的SAVEDITEM，这会导致输出产物混乱，并非你所编写的那样
 
-解决方法:将这些saveditem在`items.yml`中一一注册，赋予这些物品粘液ID，然后再通过`type: SLIMEFUN`来引用它们
+解决方法:将这些saveditems在`items.yml`中一一注册，赋予这些物品粘液ID，然后再通过`type: SLIMEFUN`来引用它们
 
 2、这是一个与乱序技艺（FinalTECH）附属冲突的一个bug
 
