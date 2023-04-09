@@ -26,6 +26,7 @@
 	- [保存物品原理](./Meta)
 	- [粘液物品特性继承](./Apply-Items)
 - 进阶自定义
+    - [套用粘液ID](./Sf-Id)
     - [辐射物品](./Radiation)
     - [自定义食品](./Foods)
 	- [自定义盔甲/武器](./Weapons-And-Armors)
