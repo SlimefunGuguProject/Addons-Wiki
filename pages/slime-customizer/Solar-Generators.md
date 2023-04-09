@@ -65,3 +65,5 @@ EXAMPLE_SOLAR_GENERATOR:
 | stats.energy-production.night | 夜晚该发电机每粘液刻所生产的电力，最大为 2147483647. |
 | crafting-recipe-type | 见[合成配方](./Crafting-Recipe)页。 |
 | crafting-recipe | 见[合成配方](./Crafting-Recipe)页。 |
+
+!> 如果您不想添加物品描述(item-lore)，您可以直接删掉-和""里的内容
