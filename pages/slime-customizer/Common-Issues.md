@@ -121,3 +121,20 @@ io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items
 1. 检查启动日志，修复配置文件的错误。
 
 > “别整活了，快去修你的Bug”
+
+## 将物品添加至主分类或非标准分类
+
+```
+[10:03:51] [Server thread/ERROR]: [SlimeCustomizer] Failed to properly load this Item
+java.lang.UnsupportedOperationException: You cannot add items to a FlexItemGroup!
+	at io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup.add(FlexItemGroup.java:81) ~[Slimefun-6aa9b31-canary.jar:?]
+	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.load(SlimefunItem.java:785) ~[Slimefun-6aa9b31-canary.jar:?]
+	at io.github.thebusybiscuit.slimefun4.implementation.setup.PostSetup.loadItems(PostSetup.java:52) ~[Slimefun-6aa9b31-canary.jar:?]
+	at io.github.thebusybiscuit.slimefun4.implementation.tasks.SlimefunStartupTask.run(SlimefunStartupTask.java:49) ~[Slimefun-6aa9b31-canary.jar:?]
+	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.18.1.jar:git-Purpur-1519]
+	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483) ~[purpur-1.18.1.jar:git-Purpur-1519]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227) ~[purpur-1.18.1.jar:git-Purpur-1519]
+	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1519]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+```
+> 你到底在干什么啊，罚你再去把wiki重新看一遍，都说了多少遍物品只能添加至子分类里

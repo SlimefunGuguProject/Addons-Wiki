@@ -71,3 +71,66 @@ locked_group:
 `NamespacedKey`是一个携带插件名称的key。你可以翻阅插件的源代码来获取各个分类的`NamespacedKey`。  
 你可以从[这里](https://github.com/StarWishsama/Slimefun4/blob/master/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/setup/DefaultItemGroups.java)查看粘液科技所有分类的`NamespacedKey`。  
 可以注意到，定义基础机器分类的行中有`new NamespacedKey(Slimefun.instance(), "basic_machines")`，这意味着该`NamespacedKey`的字符串形式为`slimefun:basic_machines`。
+
+### 注意
+
+您无法将自定义的子分类插入至其它附属的父分类中
+
+## 拓展功能
+
+您可以将您所自定义的物品/机器等添加至别的附属分类中，但是您需要注意以下几点：  
+1、所添加到的附属分类必须为子分类，您无法将物品添加至main（主分类）  
+2、您需在自定义物品/机器等配置的`category:`一栏遵循如右格式:  `existing: + namespacedkey（子分类名）` ,子分类名可以通过`/sc categories`指令查看  
+示例:
+
+```yaml
+EXAMPLE_ITEM:
+  category: existing:slimefun:misc # 将物品添加至粘液科技原版的杂项分类里
+  item-type: CUSTOM
+  item-name: "&b示例物品"
+  item-lore:
+  - "&7这只是个示例物品"
+  item-id: STICK
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+  crafting-recipe:
+    1:
+      type: VANILLA
+      id: STICK
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: VANILLA
+      id: STICK
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+```
+将物品添加至其它附属的分类中同理，子分类名均可以通过`/sc categories`指令查看  
+3、您无法将物品添加至部分例如无尽贪婪附属的分类中，因为无尽贪婪附属用的`FlexItemGroup`不是标准的子分类，即您无法将自定义物品添加至父分类和非标准分类中

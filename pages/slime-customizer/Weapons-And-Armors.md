@@ -2,6 +2,8 @@
 
 本章节主要讲解武器，盔甲同理
 
+**警告**： 请先将服务器中的简易工具（SimpleUtils）附属删除！！！
+
 ```yaml
 item:
   ==: org.bukkit.inventory.ItemStack

@@ -26,7 +26,7 @@ EXAMPLE_DROP:
 | item-name | 物品的名称。<br>支持[颜色代码](./Color-codes)。 |
 | item-lore | 物品的描述。<br>支持[颜色代码](./Color-codes)。 |
 | item-id | 物品所使用的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](./Skull-Items)或保存的物品的ID。 |
-| item-amount | 每次掉落物品的数量。 | 正整数 |
+| item-amount | 每次掉落物品的数量。 | 1 - 64 （只能是整数） |
 | mob | 掉落该物品所需的[实体类型](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)。 |
 | chance | 物品的掉落概率。 | 0 - 100（只能是整数） |
 | recipe-display-item | 用于展示如何获得掉落物的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)。 |

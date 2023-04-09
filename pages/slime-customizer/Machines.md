@@ -114,6 +114,55 @@ EXAMPLE_MACHINE:
 
 ?> 提示: 查看粘液科技物品ID，可在游戏内手持该粘液科技物品，输入`/sf id`以查看。你也可以在[粘液科技小助手](https://slimefun-helper.guizhanss.cn/)中查询。
 
-!> 每台机器只能有两种物品的输入/输出
+!> 每台机器只能有两种物品的输入/输出，且机器会优先检测第一个输入格
+
+!> 尽量要避免两项配方的输入格出现重复材料，如下所示：
+
+```yaml
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 9
+        2:
+          type: VANILLA
+          id: APPLE
+          amount: 2
+      output:
+        1:
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+    2:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 4
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+      output:
+        1:
+          type: SLIMEFUN
+          id: GOLD_24K
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+```
+如上所示，他们有共同的输入物品“铁锭”，根据上一条提示，这将导致机器只输出第二项配方“24K金”
+
+发电机的输入/输出机制与本条同理
 
 !> 若使机器无输出，在output处引用原版物品AIR，AIR的amount只能为0

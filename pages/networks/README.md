@@ -10,6 +10,10 @@
 
 网络的目标是在非模组服务器中还原AE2以及精致存储(Refined Storage)的体验。
 
+本部分详尽教程取自b站up：[__W1thoutD0ubt](https://space.bilibili.com/88179140)
+
+已获得原作者授权
+
 ### 什么是网络?
 
 网络是一系列[网络物品](./Network-Items)紧密连接在一起所构成的存储系统。当然，网络中必须要有网络控制器。
@@ -25,6 +29,10 @@
 - [下载与安装](/Install#Networks)
 - [入门](./Getting-Started)
 - [存储与取出机制](./Network-Mechanism)
+
+## 详细教程
+- [第一章](./Page1)
+- [第二章](./Page2)
 
 ## 分类
 
