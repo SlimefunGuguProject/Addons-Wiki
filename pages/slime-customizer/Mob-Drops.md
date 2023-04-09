@@ -30,3 +30,5 @@ EXAMPLE_DROP:
 | mob | 掉落该物品所需的[实体类型](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)。 |
 | chance | 物品的掉落概率。 | 0 - 100（只能是整数） |
 | recipe-display-item | 用于展示如何获得掉落物的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)。 |
+
+!> 如果您不想添加物品描述(item-lore)，您可以直接删掉-和""里的内容
