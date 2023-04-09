@@ -72,11 +72,15 @@ locked_group:
 你可以从[这里](https://github.com/StarWishsama/Slimefun4/blob/master/src/main/java/io/github/thebusybiscuit/slimefun4/implementation/setup/DefaultItemGroups.java)查看粘液科技所有分类的`NamespacedKey`。  
 可以注意到，定义基础机器分类的行中有`new NamespacedKey(Slimefun.instance(), "basic_machines")`，这意味着该`NamespacedKey`的字符串形式为`slimefun:basic_machines`。
 
+如果想让**锁定分类所需的其他分类**是您所自定义的分类，您需在您自定义的分类名前加上`slimecustomizer:`，例如`slimecustomizer:haimantech`
+
 ### 注意
 
 您无法将自定义的子分类插入至其它附属的父分类中
 
 ## 拓展功能
+
+### 将物品添加至别的附属分类中
 
 您可以将您所自定义的物品/机器等添加至别的附属分类中，但是您需要注意以下几点：  
 1、所添加到的附属分类必须为子分类，您无法将物品添加至main（主分类）  
@@ -134,3 +138,21 @@ EXAMPLE_ITEM:
 ```
 将物品添加至其它附属的分类中同理，子分类名均可以通过`/sc categories`指令查看  
 3、您无法将物品添加至部分例如无尽贪婪附属的分类中，因为无尽贪婪附属用的`FlexItemGroup`不是标准的子分类，即您无法将自定义物品添加至父分类和非标准分类中
+
+### 将您自定义的子分类添加至其它附属的标准父分类中
+
+在最新版本，您可以将您自定义的分类添加至其它附属的标准分类中
+
+在此以蓬松机器为示例：
+
+```yaml
+sub_group:
+  type: sub
+  category-name: "&c子分类"
+  category-item: DIRT
+  parent: existing:fluffymachines:fluffymachines
+```
+
+`parent:`后的格式：`existing: + namespacedkey`
+
+上述示例可以将您自定义的子分类添加至蓬松机器附属的父分类中
