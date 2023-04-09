@@ -27,6 +27,7 @@
 	- [粘液物品特性继承](./Apply-Items)
 - 进阶自定义
     - [辐射物品](./Radiation)
+    - [充电物品](./Charged-Items)
     - [自定义食品](./Foods)
 	- [自定义盔甲/武器](./Weapons-And-Armors)
 	- [武器技能与FN标签](./Skills)
