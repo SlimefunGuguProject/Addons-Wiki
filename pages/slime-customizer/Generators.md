@@ -91,3 +91,5 @@ EXAMPLE_GENERATOR:
 | recipes.#.input/output.type | 输入/输出物品的类型。 | **NONE** 无物品 <br>**VANILLA** 原版物品 <br> **SLIMEFUN** 粘液科技物品 <br>**SAVEDITEM** [保存的物品](./Saved-Items) |
 | recipes.#.input/output.#.id | 原版/粘液科技/保存物品的物品ID。<br>物品类型为**NONE**时，不需要填写。 |
 | recipes.#.input/output.#.amount | 输入/输出物品数量。<br>物品类型为**NONE**时，不需要填写。 |
+
+!> 如果您不想添加物品描述(item-lore)，您可以直接删掉-和""里的内容
