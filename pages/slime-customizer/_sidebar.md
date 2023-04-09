@@ -26,6 +26,7 @@
 	- [保存物品原理](./Meta)
 	- [粘液物品特性继承](./Apply-Items)
 - 进阶自定义
+    - [辐射物品](./Radiation)
     - [自定义食品](./Foods)
 	- [自定义盔甲/武器](./Weapons-And-Armors)
 	- [武器技能与FN标签](./Skills)
@@ -34,3 +35,8 @@
 	- [粘液物品/机器换皮](./Skin)
 	- [总结](./General)
 	- [其它粘液自定义插件](./Other)
+- 页面美化
+    - [配方页面美化](./Recipe-Beautification)
+    - [物品排布建议](./Items-Arrangement)
+- 游戏平衡
+    - [游戏平衡](./Game-Balance)
