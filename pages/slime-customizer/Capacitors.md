@@ -65,3 +65,5 @@ EXAMPLE_CAPACITOR:
 | item-amount | 每次合成获得的物品数量。 |
 | crafting-recipe-type | 见[合成配方](./Crafting-Recipe)页。 |
 | crafting-recipe | 见[合成配方](./Crafting-Recipe)页。 |
+
+!> 如果您不想添加物品描述(item-lore)，您可以直接删掉-和""里的内容
