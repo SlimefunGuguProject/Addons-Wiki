@@ -80,7 +80,7 @@ EXAMPLE_GENERATOR:
 | `EXAMPLE_GENERATOR` | 发电机的ID。<br>该ID不能与任何其他物品的ID相同! | **仅支持大写字母、数字、下划线!** |
 | category | 物品所在[分类](./Categories)的ID。 |
 | generator-name | 发电机的名称。<br>支持[颜色代码](./Color-codes)。 |
-| generator-lore | 发电机的描述。<br>支持[颜色代码](./Color-codes)。 |
+| generator-lore | 发电机的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
 | block-type | 发电机所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 |
 | progress-bar-item | 发电机的进度条所使用的物品，仅支持填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) |
 | stats.energy-production | 这台发电机每粘液刻产生的电力，最大为 2147483647。 |
@@ -92,4 +92,3 @@ EXAMPLE_GENERATOR:
 | recipes.#.input/output.#.id | 原版/粘液科技/保存物品的物品ID。<br>物品类型为**NONE**时，不需要填写。 |
 | recipes.#.input/output.#.amount | 输入/输出物品数量。<br>物品类型为**NONE**时，不需要填写。 |
 
-!> 如果您不想添加物品描述(item-lore)，您可以直接删掉-和""里的内容

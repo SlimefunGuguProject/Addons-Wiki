@@ -16,6 +16,7 @@
 - [生物掉落](./Mob-Drops)
 - [自然资源（GEO）](./Geo-Resources)
 - [物品](./Items)
+- [材料生成器](./Material-Generators)
 - [电容](./Capacitors)
 - [机器](./Machines)
 - [发电机](./Generators)
