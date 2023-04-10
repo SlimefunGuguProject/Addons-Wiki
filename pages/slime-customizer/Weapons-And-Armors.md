@@ -4,6 +4,8 @@
 
 **警告**： 请先将服务器中的简易工具（SimpleUtils）附属删除！！！
 
+原因详见 **[保存物品](./Saved-Items)**
+
 ```yaml
 item:
   ==: org.bukkit.inventory.ItemStack
