@@ -14,7 +14,7 @@ EXAMPLE_GEO:
   item-lore:
     - "&7这是一个示例自然资源!"
   item-id: STICK
-  max-deviation: 0
+  max-deviation: 1
   biome:
     BEACH: 9
   environment:
@@ -28,7 +28,7 @@ EXAMPLE_GEO:
 | category | 自然资源所在[分类](./Categories)的ID。 |
 | item-type | 自然资源的注册方式。 | **CUSTOM** 填入此项时，你可以自定义自然资源名称、描述、种类。 <br>**SAVEDITEM** 从[保存的自然资源](./Saved-Items)中加载自然资源。 |
 | item-name | 自然资源的名称。<br>支持[颜色代码](./Color-codes)。 |
-| item-lore | 自然资源的描述。<br>支持[颜色代码](./Color-codes)。 |
+| item-lore | 自然资源的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
 | item-id | 自然资源所使用的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](./Skull-Items)或保存的自然资源的ID。 |
 | max-deviation | 每个区块自然资源数量的最大偏差。 | 正整数 |
 | biome | 自然资源在各个生物群系的默认数量。<br>*可选，但biome与environment至少要有一个。* |
@@ -70,3 +70,5 @@ https://jd.papermc.io/paper/1.19/org/bukkit/block/Biome.html
 最终资源数量是默认资源数量，并加上偏差值。`max-deviation`定义了最大的偏差值。
 
 最终资源数量的范围为 `默认数量 +- 偏差值`。
+
+该数量在扫描时确定，且不会再更改。

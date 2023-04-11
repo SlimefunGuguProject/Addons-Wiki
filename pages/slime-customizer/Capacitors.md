@@ -59,9 +59,10 @@ EXAMPLE_CAPACITOR:
 | `EXAMPLE_CAPACITOR` | 电容的ID。<br>该ID不能与任何其他物品的ID相同! | **仅支持大写字母、数字、下划线!** |
 | category | 物品所在[分类](./Categories)的ID。 |
 | generator-name | 电容的名称。<br>支持[颜色代码](./Color-codes)。 |
-| generator-lore | 电容的描述。<br>支持[颜色代码](./Color-codes)。 |
-| block-type | 电容所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或默认值。 | `default` 会使用原版电容的头颅，材质会根据储电量动态更新。<br>*任意原版方块ID* |
-| capacitor | 这个电容可储存的电力，最大为 2147483647。 |
+| generator-lore | 电容的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
+| block-type | 电容所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或默认值。 | - `default` 会使用原版电容的头颅，材质会根据储电量动态更新。<br>- *任意原版方块ID* |
+| capacity | 这个电容可储存的电力，最大为 2147483647。 |
 | item-amount | 每次合成获得的物品数量。 |
 | crafting-recipe-type | 见[合成配方](./Crafting-Recipe)页。 |
 | crafting-recipe | 见[合成配方](./Crafting-Recipe)页。 |
+

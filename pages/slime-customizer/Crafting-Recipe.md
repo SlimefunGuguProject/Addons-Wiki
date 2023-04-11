@@ -62,6 +62,7 @@
 - **SMELTERY** [冶炼炉](https://slimefun-wiki.guizhanss.cn/Smeltery)
 - **ORE_CRUSHER** [矿石粉碎机](https://slimefun-wiki.guizhanss.cn/Ore-Crusher)
 - **GRIND_STONE** [磨石](https://slimefun-wiki.guizhanss.cn/Grind-Stone)
+- **ANCIENT_ALTAR** [古代祭坛](https://slimefun-wiki.guizhanss.cn/Ancient-Altar)
 - **NONE** 无法合成
 
 ## 提示
@@ -79,3 +80,7 @@
 - PRESSURE_CHAMBER
 - ORE_CRUSHER
 - GRIND_STONE
+
+以下多方块结构的配方表必须用数量为1的物品填满九格配方:
+
+- ANCIENT_ALTAR
