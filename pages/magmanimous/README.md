@@ -5,7 +5,7 @@
 Magmanimous 是2022年粘液科技附属竞赛参赛作品，作者为NCBPFluffyBear。
 
 粘液科技简中汉化组对该附属进行了汉化，并确定了非官方中文译名: 熔岩之息。  
-[点击此处](https://builds.guizhanss.net/SlimefunGuguProject/Magmanimous/main)下载熔岩之息汉化版。
+[点击此处](/Install#Magmanimous)下载熔岩之息汉化版。
 
 ---
 

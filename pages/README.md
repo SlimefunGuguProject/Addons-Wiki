@@ -18,6 +18,7 @@
 | GeneticChickengineering | 基因工程 | [点击访问](/geneticchickengineering/) |
 | InfinityExpansion | 无尽贪婪 | [点击访问](/infinity-expansion/) | [p1](https://www.bilibili.com/video/BV1vY411L7uW/?spm_id_from=333.999.0.0) [p2](https://www.bilibili.com/video/BV1zS4y1C78n/?spm_id_from=333.999.0.0) [p3](https://www.bilibili.com/video/BV1br4y1h7dC/?spm_id_from=333.999.0.0) [p4](https://www.bilibili.com/video/BV1k34y1C7sV/?spm_id_from=333.999.0.0) [p5](https://www.bilibili.com/video/BV1Tb4y147Z1/?spm_id_from=333.999.0.0) [p6](https://www.bilibili.com/video/BV13a41117dA/?spm_id_from=333.999.0.0) |
 | Magmanimous | 熔岩之息 | [点击访问](/magmanimous/) |
+| Netheopoiesis | 下界乌托邦 | [点击访问](/netheopoiesis/) |
 | Networks | 网络 | [点击访问](/networks/) | [p1](https://www.bilibili.com/video/BV1vR4y1F77F/?spm_id_from=333.999.0.0) [p2](https://www.bilibili.com/video/BV1Zb4y1H7Dm/?spm_id_from=333.999.0.0) [p3](https://www.bilibili.com/video/BV1Lr4y1p7J5/?spm_id_from=333.999.0.0) |
 | SfMobDrops | 粘液科技生物掉落 | [点击访问](/sf-mob-drops/) |
 | SlimeCustomizer | 自定义粘液附属 | [点击访问](/slime-customizer/) |

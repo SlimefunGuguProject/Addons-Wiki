@@ -2,7 +2,7 @@
 
 ## 下载
 
-由于粘液科技中文Wiki的附属列表已包含本Wiki中所有附属的下载地址，因此，请前往[粘液科技中文Wiki的附属列表](https://slimefun-wiki.guizhanss.cn/Addons)查找附属并下载。
+由于粘液科技中文Wiki的附属列表已包含本Wiki中所有附属的下载地址，因此，请前往[粘液科技中文Wiki的附属列表](https://slimefun-wiki.guizhanss.cn/Addons)使用浏览器自带的搜索功能(Ctrl+F)来查找附属并下载。
 
 ## 安装
 
