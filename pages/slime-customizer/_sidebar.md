@@ -1,6 +1,7 @@
 - **自定义粘液附属**
 - [主页](./)
 - [下载与安装](/Install#SlimeCustomizer)
+- [使用前声明](./Statement)
 - [常见问题/错误与解决方法](./Common-Issues)
 - 基础配置
     - [分类](./Categories)
@@ -11,6 +12,7 @@
     - [机器](./Machines)
     - [发电机](./Generators)
     - [太阳能发电机](./Solar-Generators)
+    - [材料生成器](./Material-Generators)
     - [研究](./Researches)
 - 其他说明
     - [指令](./Commands)
@@ -25,6 +27,8 @@
 	- [保存物品原理](./Meta)
 	- [粘液物品特性继承](./Apply-Items)
 - 进阶自定义
+    - [辐射物品](./Radiation)
+    - [充电物品](./Charged-Items)
     - [自定义食品](./Foods)
 	- [自定义盔甲/武器](./Weapons-And-Armors)
 	- [武器技能与FN标签](./Skills)
@@ -33,3 +37,8 @@
 	- [粘液物品/机器换皮](./Skin)
 	- [总结](./General)
 	- [其它粘液自定义插件](./Other)
+- 页面美化
+    - [配方页面美化](./Recipe-Beautification)
+    - [物品排布建议](./Items-Arrangement)
+- 游戏平衡
+    - [游戏平衡](./Game-Balance)

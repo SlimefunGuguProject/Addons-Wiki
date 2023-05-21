@@ -20,4 +20,5 @@
 - [机器](./Machines)
 - [发电机](./Generators)
 - [太阳能发电机](./Solar-Generators)
+- [材料生成器](./Material-Generators)
 - [研究](./Researches)
