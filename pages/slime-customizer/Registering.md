@@ -12,6 +12,7 @@
 
 左侧的菜单也是按照这个注册顺序来排序的。
 
+- [附属插件依赖检测](./Sc-Addon)
 - [分类](./Categories)
 - [生物掉落](./Mob-Drops)
 - [自然资源（GEO）](./Geo-Resources)

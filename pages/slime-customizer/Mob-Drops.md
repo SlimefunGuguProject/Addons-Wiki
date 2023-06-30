@@ -25,7 +25,7 @@ EXAMPLE_DROP:
 | item-type | 物品注册的方式。 | **CUSTOM** 填入此项时，你可以自定义物品名称、描述、种类 <br>**SAVEDITEM** 从[保存的物品](./Saved-Items)中加载物品。 |
 | item-name | 物品的名称。<br>支持[颜色代码](./Color-codes)。 |
 | item-lore | 物品的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
-| item-id | 物品所使用的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](./Skull-Items)或保存的物品的ID。 |
+| item-id | 物品所使用的[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](./Skull-items)或保存的物品的ID。 |
 | item-amount | 每次掉落物品的数量。 | 1 - 64 （只能是整数） |
 | mob | 掉落该物品所需的[实体类型](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/entity/EntityType.html)。 |
 | chance | 物品的掉落概率（百分比）。 | 0 - 100（只能是整数） |

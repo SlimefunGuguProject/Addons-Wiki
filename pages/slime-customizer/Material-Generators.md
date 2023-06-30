@@ -67,7 +67,7 @@ EXAMPLE_MATERIAL_GENERATOR:
 | category | 物品所在[分类](./Categories)的ID。 |
 | item-name | 材料生成器的名称。<br>支持[颜色代码](./Color-codes)。 |
 | item-lore | 材料生成器的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
-| block-type | 材料生成器所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 |
+| block-type | 材料生成器所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-items)。 |
 | item-amount | 每次合成获得的物品数量。<br>**注意：**这不是产物的数量。 |
 | stats.energy-consumption | 这台机器每粘液刻消耗的电力，最大为 2147483647。 |
 | stats.energy-buffer | 这台机器可储存的电力，最大为 2147483647。 |
