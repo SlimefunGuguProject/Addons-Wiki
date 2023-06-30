@@ -17,7 +17,7 @@ depend:
 
 如果你的自定义附属引用了无尽贪婪附属插件里的物品  
 
-您需要向配置文件中添加无尽贪婪的`artifactId`
+您需要向配置文件中添加无尽贪婪的名称，即在plugin.yml中定义的名字
 
 ```yaml
 depend:
@@ -25,6 +25,6 @@ depend:
   - InfinityExpansion
 ```
 
-# 如何查看artifactId
+# 如何查看插件名称
 
-获取附属插件的源码，点击`pom.xml`，找到<artifactId>之后的名称
+通过 /plugins 或者 /sf versions 指令获取插件名称
