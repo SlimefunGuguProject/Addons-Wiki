@@ -4,6 +4,7 @@
 - [使用前声明](./Statement)
 - [常见问题/错误与解决方法](./Common-Issues)
 - 基础配置
+    - [附属插件依赖检测](./Sc-Addon)
     - [分类](./Categories)
     - [生物掉落](./Mob-Drops)
     - [自然资源（GEO）](./Geo-Resources)
