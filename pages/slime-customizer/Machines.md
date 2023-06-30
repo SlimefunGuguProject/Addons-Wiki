@@ -101,7 +101,7 @@ EXAMPLE_MACHINE:
 | category | 物品所在[分类](./Categories)的ID。 |
 | machine-name | 机器的名称。<br>支持[颜色代码](./Color-codes)。 |
 | machine-lore | 机器的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
-| block-type | 机器所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 | 
+| block-type | 机器所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-items)。 | 
 | progress-bar-item | 机器的进度条所使用的物品，仅支持填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html) |
 | stats.energy-consumption | 这台机器每粘液刻消耗的电力，最大为 2147483647。 |
 | stats.energy-buffer | 这台机器可储存的电力，最大为 2147483647。 |
