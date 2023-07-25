@@ -5,4 +5,4 @@
 
 你可以在[发电机](./Generators)的示例配置中查看。
 
-你可以从[Minecraft Heads](https://minecraft-heads.com/custom-heads)网站获取头颅的hash（Minecraft-URL部分)，或者参考[这篇文章](https://bukkit.org/threads/create-your-own-custom-head-texture.424286/)来了解如何使用自定义hash。
+你可以从[Minecraft Heads](https://minecraft-heads.com/custom-heads)网站获取头颅的hash（Minecraft-URL部分），或者参考[这篇文章](https://bukkit.org/threads/create-your-own-custom-head-texture.424286/)来了解如何使用自定义hash。

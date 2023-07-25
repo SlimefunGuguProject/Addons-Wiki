@@ -17,7 +17,7 @@
     - [研究](./Researches)
 - 其他说明
     - [指令](./Commands)
-    - [头颅](./Skull-items)
+    - [头颅](./Skull-Items)
     - [颜色代码](./Color-codes)
     - [物品注册](./Registering)
     - [合成配方](./Crafting-Recipe)

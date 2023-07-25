@@ -60,7 +60,7 @@ EXAMPLE_SOLAR_GENERATOR:
 | category | 物品所在[分类](./Categories)的ID。 |
 | generator-name | 发电机的名称。<br>支持[颜色代码](./Color-codes)。 |
 | generator-lore | 发电机的描述。<br>支持[颜色代码](./Color-codes)。<br>如果不想添加描述可以将整个字段删除。 |
-| block-type | 发电机所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-items)。 |
+| block-type | 发电机所使用的[原版方块ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 |
 | stats.energy-production.day | 白天该发电机每粘液刻所生产的电力，最大为 2147483647. |
 | stats.energy-production.night | 夜晚该发电机每粘液刻所生产的电力，最大为 2147483647. |
 | crafting-recipe-type | 见[合成配方](./Crafting-Recipe)页。 |
