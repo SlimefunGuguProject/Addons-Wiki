@@ -37,7 +37,7 @@ locked_group:
 | `slime_customizer` | 分类的ID，每个分类的ID不能相同。<br>**仅支持字母、数字、下划线!**<br>新分类系统不再强制使用小写字母，但从物品引用分类时，请注意分类ID的大小写。<br>建议不使用大写字母。 |
 | type | (**必填**) 分类的类型。可用类型：<br>- `normal`: 普通分类<br>- `nested`: 父分类<br>- `sub`: 子分类<br>- `seasonal`: 季节性分类<br>- `locked`: 锁定分类 |
 | category-name | (**必填**) 分类的显示名称。<br>支持[颜色代码](./Color-codes)。 |
-| category-item | (**必填**) 分类的展示物品。<br>填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 |
+| category-item | (**必填**) 分类的展示物品。<br>填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-items)。 |
 | tier | (*可选*) 分类的优先级，默认为3。<br>分类的优先级是一个整数，低优先级的分类将优先显示。 |
 | parent | (分类类型为子分类`sub`时**必填**) 父分类的ID。<br>可以填写自定义附属中定义的父分类ID，也可以填写其他附属的标准父分类。<br>详见下方说明。 |
 | month | (分类类型为季节性分类`seasonal`时**必填**) 季节性分类的显示月份，范围为1-12。 |
