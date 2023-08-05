@@ -78,3 +78,4 @@ EXAMPLE_MATERIAL_GENERATOR:
 | output.id | 产出物品的[原版](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)/粘液科技/保存物品的ID。 |
 | output.amount | 每次产出物品的数量。 | 整数，最少为1，最多为一组物品的最大数量。 |
 
+!> 注意：材料发生器的输出可以给不可堆叠的物品设置堆叠数量，最高为64，也就是说材料发生器可以一次性产出堆叠在一起的一组水桶
