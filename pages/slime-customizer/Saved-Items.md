@@ -34,7 +34,7 @@
 ```yaml
 EXAMPLE_ITEM:
   category: slime_customizer
-  type: SAVEDITEM  # 注意此处需要修改为SAVEDITEM
+  item-type: SAVEDITEM  # 注意此处需要修改为SAVEDITEM
   item-name: "&b保存物品示例(配置自动忽略名称)"
   item-lore:
   - "&7配置自动忽略lore"
