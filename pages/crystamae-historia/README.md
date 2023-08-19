@@ -5,6 +5,9 @@
 CrystamaeHistoria的非官方中文名为魔法水晶编年史。  
 [点击此处](/Install#CrystamaeHistoria)下载魔法水晶编年史。
 
+**该Wiki仍需完善，欢迎点击右上角的GitHub图标参与Wiki编写与翻译。**  
+英文Wiki：[点此访问](https://docs.sefiraat.dev/crystamae-historia/spell-crafting/what-is-crystamae)
+
 ---
 
 魔法水晶编年史是一个 Slimefun4 的附属插件。该附属插件添加了一系列的法术，以及用于创建与解锁新法术的进度系统。
