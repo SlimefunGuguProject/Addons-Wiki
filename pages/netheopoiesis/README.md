@@ -23,3 +23,4 @@ Netheopoiesis 是2022年粘液科技附属竞赛参赛作品，作者为Sefiraat
 
 - [净化](./Purification)
 - [培育](./Breeding)
+- [种子数据表](./Seed-Database)
