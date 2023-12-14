@@ -1,0 +1,34 @@
+{
+	"name": "slimefun-addons-wiki",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"start": "astro dev",
+		"build": "astro check && astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/check": "^0.3.1",
+		"@astrojs/cloudflare": "^8.0.0",
+		"@astrojs/starlight": "^0.15.0",
+		"@astrojs/starlight-tailwind": "^2.0.1",
+		"@astrojs/tailwind": "^5.0.3",
+		"@fontsource/noto-sans": "^5.0.18",
+		"@fontsource/noto-sans-sc": "^5.0.17",
+		"astro": "^4.0.1",
+		"rehype-external-links": "^3.0.0",
+		"remark-heading-id": "^1.0.1",
+		"sharp": "^0.33.0",
+		"tailwindcss": "^3.3.6"
+	},
+	"devDependencies": {
+		"@guizhan/eslint-config": "^0.2.1",
+		"@typescript-eslint/eslint-plugin": "^6.13.2",
+		"@typescript-eslint/parser": "^6.13.2",
+		"eslint": "^8.55.0",
+		"eslint-plugin-import": "^2.29.0",
+		"typescript": "^5.3.3"
+	}
+}

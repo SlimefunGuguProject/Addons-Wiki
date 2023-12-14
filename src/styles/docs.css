@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sl-font: 'Noto Sans', sans-serif;
+}
+
+html[lang='zh-CN'] {
+  --sl-font: 'Noto Sans SC', 'Noto Sans', sans-serif;
+}
