@@ -9,10 +9,10 @@ export default defineConfig({
   integrations: [starlight({
     title: '粘液科技附属 中文Wiki',
     description: '本站包含了粘液科技各大附属的中文Wiki。',
-    // logo: {
-    //   src: './src/assets/logo.png'
-    // },
-    // favicon: '/favicon.ico',
+    logo: {
+      src: './src/assets/favicon.png'
+    },
+    favicon: '/favicon.png',
     customCss: [
       '@fontsource/noto-sans',
       '@fontsource/noto-sans-sc',
@@ -40,7 +40,22 @@ export default defineConfig({
       // }
     ],
     sidebar: [
-      // TODO: Replace sidebar with your own
+      {
+        label: '首页',
+        link: '/'
+      },
+      {
+        label: '附属教程',
+        link: '/tutorial'
+      },
+      {
+        label: '附属下载',
+        link: '/download'
+      },
+      {
+        label: '附属列表',
+        autogenerate: { directory: '/addon' }
+      }
     ]
   }), tailwind({
     applyBaseStyles: false
