@@ -1,1 +1,0 @@
-![杂交流程图](https://gzassets.cn/minecraft/plugin/slimefun/wiki/addons/images/geneticchickengineering/zajiao.png ':size=65%')
