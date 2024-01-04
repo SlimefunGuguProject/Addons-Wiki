@@ -1,5 +1,5 @@
 ---
-title: 附属下载
+title: 下载
 ---
 
 你可以在粘液科技中文 Wiki 的[附属列表](https://slimefun-wiki.guizhanss.cn/Addons)中找到所有的附属下载地址。
