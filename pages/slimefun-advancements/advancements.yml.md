@@ -210,7 +210,7 @@ portable_workbench:
 
 | 内容 | 描述 |
 | -------- | -------- |
-| `research` | **必须**。研究的 NamespacedKey ID。<br>你可以在[粘液科技小助手](https://slimefun-helper.guizhanss.cn)中查询研究的键名。 |
+| `research` | **必须**。研究的 NamespacedKey。<br>你可以在[粘液科技助手](https://slimefun-helper.guizhanss.cn)中查询研究的键名。 |
 
 #### mobkill 击杀指定生物 :id=mobkill
 
@@ -249,6 +249,26 @@ portable_workbench:
 | 内容 | 描述 |
 | -------- | -------- |
 | `search` | **必须**。指定该条件所需的搜索字符。搜索内容需要与该字符完全一致，才可以完成。 |
+
+#### multiblockcraft 多方块结构合成 :id=search
+
+**类型**: `multiblockcraft`
+
+该类型的条件需要玩家使用多方块结构合成指定物品来完成。
+
+```yaml
+  criteria:
+    craft_grandmas_walking_stick:
+      name: "合成3次奶奶的拐杖"
+      type: multiblockcraft
+      item: GRANDMAS_WALKING_STICK
+      amount: 3
+```
+
+| 内容 | 描述 |
+| -------- | -------- |
+| `item` | **必须**。需要合成的物品ID。 |
+| `amount` | *可选*。需要合成的**次数**，默认为1。<br>**注意**：这不是合成数量，而是合成次数。 |
 
 #### 更多条件 :id=more-criterion
 
