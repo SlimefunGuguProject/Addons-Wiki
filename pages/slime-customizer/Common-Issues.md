@@ -1,26 +1,30 @@
-# 常见错误与解决办法
+# 常见问题/错误与解决方案
 
-当任何分类或物品的配置有问题时，你可以在服务端找到插件给出的错误提示。
+本页内容讲述编写 SlimeCustomizer 配置时可能遇到的问题，以及解决方案。  
+在讨论群内提出你的问题之前，请**一定**要先阅读本页内容，因为90%的问题都能在这里自己解决。
 
-此时，你只需要根据提示所说的做就行了。
+!> SlimeCustomizer 会在加载时输出所有信息，一旦遇到错误或无效配置时，则会停止加载并禁用插件。请优先**检查服务端的启动日志**，以找到错误的原因。（这是 70% 的问题的解决方案）
 
-此处列出部分较为特殊的问题，以及相关解决方案。
+## 无法使用 /sc 指令
 
-如果你想要补充，欢迎提交[Pull Request](https://github.com/SlimefunGuguProject/Addons-Wiki/pulls)。
+使用指令时出现"An internal error has occured"字眼的报错信息。  
+后台报错：
+
+```
+org.bukkit.command.CommandException: Cannot execute command 'sc' in plugin SlimeCustomizer
+```
+
+插件都禁用了，还怎么用指令？去**检查服务端的启动日志**。
 
 ## 跳配置加载
 
-该问题不会在后台报错，它的通常表现为：
+当某个配置文件被跳过加载时，一般是因为配置文件的格式出现问题。  
 
-当你加载完GEO资源后跳过了物品`items.yml`直接开始加载机器`machines.yml`
-
-可能原因:
-
-1. Yml文件格式不正确。
+对于该问题，报错会在一开始加载插件时就出现，而不会等到加载相应文件时才出现。
 
 解决方案:
 
-1. 严格按照YAML规范来编写；
+1. 严格按照 YAML 规范来编写；
     1. 注意中文/英文符号的正确使用，例如中文冒号`：`与英文冒号`:`；
     2. YAML对缩进有严格的要求，注意不同项目前面的空格数量。
 2. 使用[该网站](https://www.bejson.com/validators/yaml_editor/)或其他任何YAML校验工具来检查YAML文件格式；
@@ -64,30 +68,10 @@ java.lang.NoClassDefFoundError: io/ncbpfluffybearimecustomizer/registration/Capa
 
 该问题会导致ID重复的物品无法正常加载。
 
-报错如下：
+报错如下（其实你能看得懂英文的话，这个报错已经解释了一切：
 
 ```
-[09:47:43 错误]: [SlimeCustomizer] Item "AMBER" from SlimeCustomizer vBuild 11 zh-CN(SlimefunGuguProject) (git 00cf14c) has caused an Error!
-[09:47:43 错误]: [SlimeCustomizer] You can report it here: https://github.com/SlimefunGuguProject/SlimeCustomizer/issues
-[09:47:43 错误]: [SlimeCustomizer] Registering SCGeoResource - 'AMBER' (SlimeCustomizer vBuild 11 zh-CN(SlimefunGuguProject) (git 00cf14c)) has failed!
 io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items have conflicting ids: SCGeoResource - 'AMBER' (SlimeCustomizer vBuild 11 zh-CN(SlimefunGuguProject) (git 00cf14c)) and SlimefunItem - 'AMBER' (SlimyTreeTaps vBuild 2 zh-CN(ybw0014) (git 8a58b9f))
-	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.checkForConflicts(SlimefunItem.java:598) ~[Slimefun-c035c58-canary.jar:?]
-	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.register(SlimefunItem.java:427) ~[Slimefun-c035c58-canary.jar:?]
-	at io.ncbpfluffybear.slimecustomizer.objects.CustomGeoResource.registerGeo(CustomGeoResource.java:68) ~[SlimeCustomizer-Build 11 zh-CN(SlimefunGuguProject) (git 00cf14c).jar:?]
-	at io.ncbpfluffybear.slimecustomizer.objects.SCGeoResource.registerGeo(SCGeoResource.java:14) ~[SlimeCustomizer-Build 11 zh-CN(SlimefunGuguProject) (git 00cf14c).jar:?]
-	at io.ncbpfluffybear.slimecustomizer.registration.GeoResources.register(GeoResources.java:165) ~[SlimeCustomizer-Build 11 zh-CN(SlimefunGuguProject) (git 00cf14c).jar:?]
-	at io.ncbpfluffybear.slimecustomizer.SlimeCustomizer.onEnable(SlimeCustomizer.java:140) ~[SlimeCustomizer-Build 11 zh-CN(SlimefunGuguProject) (git 00cf14c).jar:?]
-	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264) ~[purpur-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:370) ~[purpur-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:541) ~[purpur-api-1.18.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugin(CraftServer.java:560) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at org.bukkit.craftbukkit.v1_18_R2.CraftServer.enablePlugins(CraftServer.java:474) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:670) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:437) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:352) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1180) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:321) ~[purpur-1.18.2.jar:git-Purpur-1632]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
 ```
 
 可能原因：
@@ -108,33 +92,11 @@ io.github.thebusybiscuit.slimefun4.api.exceptions.IdConflictException: Two items
 
 > “快住手啊！你到底想要干啥！”
 
-## 使用指令时的报错
-
-当你使用指令时出现"An internal error has occured"字眼的报错信息。
-
-可能原因：
-
-1. 插件未完全加载，或插件未启用
-
-解决方案：
-
-1. 检查启动日志，修复配置文件的错误。
-
-> “别整活了，快去修你的Bug”
-
-## 将物品添加至主分类或非标准分类
+## 将物品添加至父分类或非标准分类
 
 ```
 [10:03:51] [Server thread/ERROR]: [SlimeCustomizer] Failed to properly load this Item
 java.lang.UnsupportedOperationException: You cannot add items to a FlexItemGroup!
-	at io.github.thebusybiscuit.slimefun4.api.items.groups.FlexItemGroup.add(FlexItemGroup.java:81) ~[Slimefun-6aa9b31-canary.jar:?]
-	at io.github.thebusybiscuit.slimefun4.api.items.SlimefunItem.load(SlimefunItem.java:785) ~[Slimefun-6aa9b31-canary.jar:?]
-	at io.github.thebusybiscuit.slimefun4.implementation.setup.PostSetup.loadItems(PostSetup.java:52) ~[Slimefun-6aa9b31-canary.jar:?]
-	at io.github.thebusybiscuit.slimefun4.implementation.tasks.SlimefunStartupTask.run(SlimefunStartupTask.java:49) ~[Slimefun-6aa9b31-canary.jar:?]
-	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[purpur-1.18.1.jar:git-Purpur-1519]
-	at org.bukkit.craftbukkit.v1_18_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:483) ~[purpur-1.18.1.jar:git-Purpur-1519]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1227) ~[purpur-1.18.1.jar:git-Purpur-1519]
-	at net.minecraft.server.MinecraftServer.lambda$spin$1(MinecraftServer.java:322) ~[purpur-1.18.1.jar:git-Purpur-1519]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
 ```
-> 你到底在干什么啊，罚你再去把wiki重新看一遍，都说了多少遍物品只能添加至子分类里
+
+> 你到底在干什么啊，罚你再去把wiki重新看一遍，都说了多少遍物品不能添加到父分类里

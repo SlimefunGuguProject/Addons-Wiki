@@ -2,7 +2,7 @@
 - [主页](./)
 - [下载与安装](/Install#SlimeCustomizer)
 - [使用前声明](./Statement)
-- [常见问题/错误与解决方法](./Common-Issues)
+- [常见问题/错误与解决方案](./Common-Issues)
 - 基础配置
     - [附属插件依赖检测](./Sc-Addon)
     - [分类](./Categories)
