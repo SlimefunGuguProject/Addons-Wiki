@@ -1,0 +1,23 @@
+---
+sidebar_position: 4
+---
+
+import ImageGallery from '@site/src/components/ImageGallery';
+
+# 网络入口
+
+<ImageGallery images={[
+  { src: '/images/networks/network-importer.png', alt: '网络入口' }
+]} />
+
+网络入口可以让玩家可以通过货运网络将物品送入网络中。
+
+网络入口共有9格，可以通过货运网络**送入**物品。
+
+每粘液刻，网络会从网络入口中接收物品，并遵循[存储机制](../basics/mechanism)将物品送入网络中。
+
+:::info
+
+不同于货运节点（输入），网络入口并不会从相邻的方块获取物品。网络入口主要是作为网络与货运的接口。
+
+:::

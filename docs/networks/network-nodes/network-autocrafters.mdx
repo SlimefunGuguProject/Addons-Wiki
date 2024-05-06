@@ -1,0 +1,29 @@
+---
+sidebar_position: 28
+---
+
+import ImageGallery from '@site/src/components/ImageGallery';
+
+# 网络自动合成机
+
+<ImageGallery images={[
+  { src: '/images/networks/network-autocrafter.png', alt: '网络自动合成机' },
+  { src: '/images/networks/network-autocrafter-withholding.png', alt: '网络自动合成机(预留版)' }
+]} />
+
+网络自动合成机可以通过提供的已[编码](./network-encoder)的[网络蓝图](../tools/crafting-blueprint)来自动合成物品。
+
+每粘液刻，合成机会尝试使用蓝图配方，并从网络中获取合适的材料进行合成。
+
+合成机需要消耗[网络电力](./network-capacitor)来进行工作。
+
+## 区别
+
+普通版本的自动合成机会不断地合成物品，直到移除蓝图或原材料不足。
+
+而预留版则会在输出栏满1组物品后停止合成。由于该特性，预留版的电力消耗比普通版本更高。
+
+| 等级 | 每次合成电力消耗 |
+| --- | ------- |
+| 普通版 | 64 |
+| 预留版 | 128 |
