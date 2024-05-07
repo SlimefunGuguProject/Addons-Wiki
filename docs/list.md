@@ -11,6 +11,8 @@
 | CrystamaeHistoria | 魔法水晶编年史 | [访问](/crystamae-historia/) |
 | Cultivation | 农耕工艺 | [访问](/cultivation/) |
 | EMCTech | EMC科技 | [访问](/emctech/) |
+| ExoticGarden | 异域花园 | [访问](/exotic-garden/) |
 | Netheopoiesis | 下界乌托邦 | [访问](/netheopoiesis/) |
 | Networks | 网络 | [访问](/networks/) |
 | SlimeTinker | 粘液匠魂 | [访问](/slimetinker/) |
+| TranscEndence | 末地科技 | [访问](/transc-endence/) |
