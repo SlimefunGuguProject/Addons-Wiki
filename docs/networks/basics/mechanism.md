@@ -26,7 +26,7 @@ sidebar_position: 2
 
 如果有必要，网络会从多个地方取出物品来满足需求。
 
-:::info
+:::warning
 
 由于性能的原因，网络对箱子、桶以及其他原版容器的支持是有限的。详见[网络原版抓取器](../network-nodes/network-vanilla-grabber)与[网络原版推送器](../network-nodes/network-vanilla-pusher)。
 

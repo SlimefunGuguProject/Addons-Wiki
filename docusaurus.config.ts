@@ -124,10 +124,21 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    zoom: {
+      selector: '.image-gallery .image img',
+      background: {
+        light: 'rgb(255, 255, 255)',
+        dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
+    }
   } satisfies Preset.ThemeConfig,
 
   plugins: [
-    'docusaurus-plugin-sass'
+    'docusaurus-plugin-sass',
+    'docusaurus-plugin-image-zoom',
   ],
 };
 
