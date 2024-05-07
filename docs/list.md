@@ -8,4 +8,5 @@
 | 英文名称 | 中文名称 | Wiki 链接 |
 | --- | --- | --- |
 | Bump | Bump魔法 | [访问](https://docs.ybw0014.dev/zh-Hans/bump/) |
+| CrystamaeHistoria | 魔法水晶编年史 | [访问](/crystamae-historia/) |
 | Networks | 网络 | [访问](/networks/) |

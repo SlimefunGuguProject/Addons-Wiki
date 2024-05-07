@@ -35,7 +35,7 @@ const config: Config = {
         },
         blog: false,
         theme: {
-          customCss: './src/css/custom.css',
+          customCss: './src/css/custom.scss',
         },
       } satisfies Preset.Options,
     ],
@@ -127,18 +127,7 @@ const config: Config = {
   } satisfies Preset.ThemeConfig,
 
   plugins: [
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        fromExtensions: ['html', 'htm'],
-        redirects: [
-          {
-            to: '/networks/',
-            from: '/networks/basics',
-          },
-        ],
-      },
-    ],
+    'docusaurus-plugin-sass'
   ],
 };
 
