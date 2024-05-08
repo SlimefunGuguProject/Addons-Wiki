@@ -12,6 +12,7 @@
 | Cultivation | 农耕工艺 | [访问](/cultivation/) |
 | EMCTech | EMC科技 | [访问](/emctech/) |
 | ExoticGarden | 异域花园 | [访问](/exotic-garden/) |
+| FluffyMachines | 蓬松机器 | [访问](/fluffy-machines/) |
 | Netheopoiesis | 下界乌托邦 | [访问](/netheopoiesis/) |
 | Networks | 网络 | [访问](/networks/) |
 | SlimeTinker | 粘液匠魂 | [访问](/slimetinker/) |
