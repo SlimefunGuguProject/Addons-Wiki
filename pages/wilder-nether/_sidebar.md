@@ -1,7 +1,0 @@
-- **迷狱生机**
-- [主页](./)
-- [入门](./Getting-Started)
-- 工具
-    - [镰刀](./Scythes)
-    - [黑石炉](./Blackstone-Stove)
-    - [下界堆肥机](./Nether-Composter)

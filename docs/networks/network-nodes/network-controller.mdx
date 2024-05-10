@@ -1,0 +1,32 @@
+---
+sidebar_position: 1
+---
+
+import ImageGallery from '@site/src/components/ImageGallery';
+
+# 网络控制器
+
+<ImageGallery images={[
+  { src: '/images/networks/network-controller.png', alt: '网络控制器' }
+]} />
+
+网络控制器是一个网络的大脑。<br />
+一个可用的网络不能没有网络控制器，当然，也不能有多个网络控制器。
+
+任何其他[网络节点](../network-nodes/)，通过一系列网络节点连接到网络控制器，都将成为该网络的一部分。
+
+你可以对着网络控制器使用[网络探测器](../tools/network-probe)，来查看网络中所有连通的方块数量。
+
+## 节点数量限制
+
+你可以在粘液科技的`Items.yml`中找到控制器物品（ID：`NTW_CONTROLLER`），来设置网络中节点的数量。
+
+该选项默认为2000，你可以设置10-5000的任意值。
+
+如果一个网络中的节点数超过这个值，网络控制器会显示粒子效果，警告玩家。网络中的节点将随机不可用。
+
+:::danger 注意
+
+不建议修改该设置，因为即使网络的性能相比货运来说更加优秀，过大的数量仍然会严重影响服务器性能。
+
+:::
