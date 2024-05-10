@@ -17,6 +17,7 @@
 | InfinityExpansion | 无尽贪婪 | [访问](/infinity-expansion/) |
 | Netheopoiesis | 下界乌托邦 | [访问](/netheopoiesis/) |
 | Networks | 网络 | [访问](/networks/) |
+| SlimeCustomizer | 自定义粘液附属 | [访问](/slime-customizer/) |
 | SlimefunAdvancements | 粘液科技进度 | [访问](/slimefun-advancements/) |
-| SlimeTinker | 粘液匠魂 | [访问](/slimetinker/) |
+| SlimeTinker | 粘液匠魂 | [访问](/slime-tinker/) |
 | TranscEndence | 末地科技 | [访问](/transc-endence/) |

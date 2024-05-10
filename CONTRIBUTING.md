@@ -1,13 +1,13 @@
-# 粘液附属中文Wiki编写规范
+# 粘液附属中文 Wiki 编写规范
 
-我们欢迎任何补充Wiki内容的PR，但在进行编辑前，我们建议你阅读这篇编写规范。
+我们欢迎任何补充 Wiki 内容的 PR，但在进行编辑前，我们建议你阅读这篇编写规范。
+
+本 Wiki 使用 [Docusaurus 3](https://docusaurus.io/) 构建，文档内容全部使用 Markdown 编写（部分 MDX）。
 
 ## 文件夹名称规范
 
-我们所有的页面保存在`/pages/`文件夹中，在该文件夹中有多个文件夹分别以不同的附属名称命名。  
-同样地，所有的图片都保存在`/images/`文件夹中。
-
-这些文件夹的命名规则如下：
+我们所有的页面保存在 `/docs/` 文件夹中，在该文件夹中有多个文件夹分别以不同的附属名称命名。  
+所有的图片都保存在 `/images/` 文件夹中。
 
 文件夹名称应为附属名称的小写，单词之间使用`-`连接。例如：
 
@@ -17,22 +17,22 @@
 
 ## 文件名命名规范
 
-每个附属的文件夹中应包含`README.md`（主页），以及`_sidebar.md`（侧边栏）。
+每个附属的根目录下必须有 `index.md` 或 `index.mdx` 文件，用于显示附属的首页。
 
 其他文件的命名规则如下：
 
-- 文件名应以`.md`为后缀
-- 通常情况下，文件名每个单词的首字母大写，其余字母小写，单词之间使用`-`连接
-- 部分简写单词（如`FAQ`）不适用于上一条
+- 文件名应以 `.md` 为后缀。如果使用到了 React 组件，则使用 `.mdx` 为后缀。
+- 文件名每个单词的字母都应为小写，单词之间使用`-`连接。
+- 文件名应有意义，且与文件内容相关。
 
 例如：
 
-- `FAQ.md`
-- `Barrels.md`
-- `Infinity-Forge.md`
+- `faq.md`
+- `barrels.md`
+- `infinity-forge.md`
 
 ## 内容规范
 
-我们的文档全部使用 Markdown 编写，内容规范与 粘液科技中文Wiki 一致。
+附属 Wiki 的内容规范与 粘液科技中文 Wiki 的[内容规范](https://slimefun-wiki.guizhanss.cn/Expanding-the-Wiki?id=step-3-general-guidelines-dos-and-donts)基本一致。
 
-点击查看[粘液科技中文Wiki的内容规范](https://slimefun-wiki.guizhanss.cn/Expanding-the-Wiki?id=step-3-general-guidelines-dos-and-donts)。
+你可以使用 Docusaurus 的 [Markdown 特性](https://docusaurus.io/zh-CN/docs/markdown-features)与组件来丰富文档的内容。
