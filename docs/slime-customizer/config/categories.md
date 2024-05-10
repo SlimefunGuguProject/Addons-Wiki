@@ -37,7 +37,7 @@ locked_group:
 | `slime_customizer` | 分类的 ID，每个分类的 ID 不能相同。<br />**仅支持字母、数字、下划线!**<br />建议不使用大写字母。 |
 | type | (**必填**) 分类的类型。可用类型：<br />- `normal`: 普通分类<br />- `nested`: 父分类<br />- `sub`: 子分类<br />- `seasonal`: 季节性分类<br />- `locked`: 锁定分类 |
 | category-name | (**必填**) 分类的显示名称。<br />支持[颜色代码](../common/color-codes)。 |
-| category-item | (**必填**) 分类的展示物品。<br />填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](./Skull-Items)。 |
+| category-item | (**必填**) 分类的展示物品。<br />填入[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或者[头颅](../common/skull-items)。 |
 | tier | (*可选*) 分类的优先级，默认为3。<br />分类的优先级是一个整数，低优先级的分类将优先显示。 |
 
 :::info
