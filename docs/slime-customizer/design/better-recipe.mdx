@@ -1,0 +1,129 @@
+---
+sidebar_position: 1
+---
+
+import ImageGallery from '@site/src/components/ImageGallery';
+
+# 配方页面美化
+
+本页面主要讲述关于配方页面的美化。
+
+当你的物品是由自定义机器所产出时，由于自定义粘液附属的配方类型无法自定义，向玩家展示物品的获取途径就需要一些特殊的处理。
+
+<ImageGallery images={[
+    { src: '/images/slime-customizer/better-recipe.png', alt: '配方页面展示'}
+]} />
+
+## 具体操作
+
+1. 在[物品](../config/items)文件中写一个用于展示获取途径的物品，将合成配方类型 `crafting-recipe-type`设为 `NONE`。
+
+```yaml title="获取途径物品示例"
+HAIMAN_INFO_FENZI_4:
+  category: slime_customizer_info
+  item-type: CUSTOM
+  item-name: "&c&l分子重组仪配方" # 通常说明物品的获取途径（机器）
+  item-lore:
+  - "&7该物品在分子重组仪4里制作" # 补充说明
+  item-id: SKULL57ccd36dc8f72adcb1f8c8e61ee82cd96ead140cf2a16a1366be9b5a8e3cc3fc
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: NONE
+      id: N/A
+      amount: 1
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: NONE
+      id: N/A
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+```
+
+2. 在你想展示获取途径的物品中引用上述物品。
+
+```yaml title="需要展示获取途径物品示例"
+HAIMAN_INFINITY_CONSTRUCTOR_2:
+  category: slime_customizer_material
+  item-type: CUSTOM
+  item-name: "&f&l无尽压缩奇点"
+  item-lore:
+  - "&7由6个无尽奇点压缩而成"
+  item-id: SKULL8af6bd2c033a838d4ff7fd555321e06cf806a75c4a2b5868c71004e02a1860a4
+  item-amount: 1
+  placeable: false
+  crafting-recipe-type: NONE
+  crafting-recipe:
+    1:
+      type: NONE
+      id: N/A
+      amount: 1
+    2:
+      type: SLIMEFUN
+      id: INFINITY_SINGULARITY
+      amount: 6
+    3:
+      type: NONE
+      id: N/A
+      amount: 1
+    4:
+      type: NONE
+      id: N/A
+      amount: 1
+    5:
+      type: SLIMEFUN
+      id: HAIMAN_INFO_FENZI_4
+      amount: 1
+    6:
+      type: NONE
+      id: N/A
+      amount: 1
+    7:
+      type: NONE
+      id: N/A
+      amount: 1
+    8:
+      type: NONE
+      id: N/A
+      amount: 1
+    9:
+      type: NONE
+      id: N/A
+      amount: 1
+```
+
+在上述配置中，作者将展示获取途径的物品设置在了配方5，即九宫格正中间的那格。
+
+在配方的前三格，可以展示了制作该物品所需的输入材料。
+
+这样一来，该物品的获取途径被标明的清清楚楚，即在分子重组仪4中用6个无尽奇点来合成1个无尽压缩奇点。
+
+3、需要在粘液科技的配置文件 `Items.yml` 中搜索获取途径展示物品的粘液 ID，并将 `hide-in-guide` 设置为 `true`。
