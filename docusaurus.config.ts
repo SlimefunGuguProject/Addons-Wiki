@@ -147,7 +147,7 @@ const config: Config = {
     },
     algolia: {
       appId: 'ATI3VKTB81',
-      apiKey: 'abe82c0148dfc17e87c2d18ba5061e7f',
+      apiKey: '43dba645cc26cb22a542191beec23532',
       indexName: 'slimefun-addons-guizhanss',
     },
   } satisfies Preset.ThemeConfig,
