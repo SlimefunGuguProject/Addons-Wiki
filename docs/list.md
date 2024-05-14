@@ -14,6 +14,7 @@
 | ExoticGarden | 异域花园 | [访问](/exotic-garden/) |
 | FluffyMachines | 蓬松机器 | [访问](/fluffy-machines/) |
 | FoxyMachines | 神秘科技 | [访问](/foxy-machines/) |
+| Galactifun | 星际科技 | [访问](/galactifun/) |
 | InfinityExpansion | 无尽贪婪 | [访问](/infinity-expansion/) |
 | Netheopoiesis | 下界乌托邦 | [访问](/netheopoiesis/) |
 | Networks | 网络 | [访问](/networks/) |
