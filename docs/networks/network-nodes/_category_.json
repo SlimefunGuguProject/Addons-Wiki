@@ -1,5 +1,8 @@
 {
   "position": 12,
   "label": "网络节点",
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

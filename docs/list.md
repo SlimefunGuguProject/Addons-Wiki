@@ -7,10 +7,10 @@
 
 | 英文名称 | 中文名称 | Wiki 链接 |
 | --- | --- | --- |
-| Bump | Bump魔法 | [访问](https://docs.ybw0014.dev/zh-Hans/bump/) |
+| Bump | Bump 魔法 | [访问](https://docs.ybw0014.dev/zh-Hans/bump/) |
 | CrystamaeHistoria | 魔法水晶编年史 | [访问](/crystamae-historia/) |
 | Cultivation | 农耕工艺 | [访问](/cultivation/) |
-| EMCTech | EMC科技 | [访问](/emctech/) |
+| EMCTech | EMC 科技 | [访问](/emctech/) |
 | ExoticGarden | 异域花园 | [访问](/exotic-garden/) |
 | FluffyMachines | 蓬松机器 | [访问](/fluffy-machines/) |
 | FoxyMachines | 神秘科技 | [访问](/foxy-machines/) |

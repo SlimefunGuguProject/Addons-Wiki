@@ -1,5 +1,8 @@
 {
   "position": 11,
   "label": "配置文件",
-  "collapsed": false
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
 }

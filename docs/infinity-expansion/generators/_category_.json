@@ -1,5 +1,8 @@
 {
   "position": 12,
   "label": "发电机",
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

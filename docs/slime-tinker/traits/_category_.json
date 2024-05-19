@@ -1,5 +1,8 @@
 {
   "position": 20,
   "label": "特性列表",
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

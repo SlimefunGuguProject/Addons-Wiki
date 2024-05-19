@@ -1,5 +1,8 @@
 {
   "position": 15,
   "label": "首领",
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

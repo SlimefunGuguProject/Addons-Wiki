@@ -1,5 +1,8 @@
 {
   "position": 14,
   "label": "魔法与科技",
-  "collapsed": true
+  "collapsed": true,
+  "link": {
+    "type": "generated-index"
+  }
 }

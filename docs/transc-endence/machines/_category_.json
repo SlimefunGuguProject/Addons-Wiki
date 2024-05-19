@@ -1,5 +1,8 @@
 {
   "position": 11,
   "label": "机器",
-  "collapsed": false
+  "collapsed": false,
+  "link": {
+    "type": "generated-index"
+  }
 }
