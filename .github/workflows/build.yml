@@ -24,7 +24,7 @@ jobs:
         node-version: '20.3.0'
 
     - name: Setting up bun
-      uses: oven-sh/setup-bun@v1
+      uses: oven-sh/setup-bun@v2
 
     - name: Installing dependencies
       run: bun install
