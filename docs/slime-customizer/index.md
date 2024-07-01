@@ -17,7 +17,7 @@ SlimeCustomizer相较于RykenSlimeCustomizer，限制较大，可自定义范围
 
 ## 展示
 
-*想要看看SlimeCustomizer的成果如何?  可以看看天璇工艺，天璇工艺就是用SlimeCustomizer编写而成的！或许天璇工艺可以给你带来点启发！*
+*想要看看SlimeCustomizer的成果如何?  可以看看[海曼科技院](https://github.com/haiman233/HaimanTech2)，海曼科技院是一个开源的SlimeCustomizer和RykenSlimeCustomizer配置，希望海曼科技院可以带给你启发！*
 
 ![展示1](https://user-images.githubusercontent.com/83174104/163699938-8d7c0084-34fd-4d99-9d77-b2454c883669.png)
 ![展示2](https://user-images.githubusercontent.com/83174104/163699824-97081e94-e31c-4f55-a5a4-3a66e2b68484.png)
