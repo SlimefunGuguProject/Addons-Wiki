@@ -15,3 +15,9 @@ sidebar_position: 1
 该顺序与原版 SlimeCustomizer **不一致**。
 
 左侧导航栏的[配置文件](../config/)从上而下为注册顺序。
+
+## 后台在注册时的报告
+
+当你装载sc的配置时，请盯好后台显示的错误提示，并依据错误提示修改你的sc配置
+
+推荐你在装载sc配置前，先使用[SCchecker](https://github.com/SlimefunReloadingProject/SCchecker) 通篇检查一遍配置，依据输出报告修改后再安装到服务器中
