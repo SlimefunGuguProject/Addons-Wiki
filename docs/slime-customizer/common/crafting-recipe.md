@@ -67,6 +67,7 @@ sidebar_position: 4
 - **ORE_CRUSHER** [矿石粉碎机](https://slimefun-wiki.guizhanss.cn/Ore-Crusher)
 - **GRIND_STONE** [磨石](https://slimefun-wiki.guizhanss.cn/Grind-Stone)
 - **ANCIENT_ALTAR** [古代祭坛](https://slimefun-wiki.guizhanss.cn/Ancient-Altar)
+- **JUICER** [榨汁机](https://slimefun-wiki.guizhanss.cn/Juicer)
 - **NONE** 无法合成
 
 :::warning 注意
@@ -87,8 +88,9 @@ sidebar_position: 4
 - **PRESSURE_CHAMBER** [压力机](https://slimefun-wiki.guizhanss.cn/Pressure-Chamber)
 - **ORE_CRUSHER** [矿石粉碎机](https://slimefun-wiki.guizhanss.cn/Ore-Crusher)
 - **GRIND_STONE** [磨石](https://slimefun-wiki.guizhanss.cn/Grind-Stone)
+- **JUICER** [榨汁机](https://slimefun-wiki.guizhanss.cn/Juicer)
 
-以下配方类型的合成配方必须所有9格都有物品：
+以下配方类型的合成配方必须用物品（不包括空气）填满九宫格且数量只能为1：
 
 - **ANCIENT_ALTAR** [古代祭坛](https://slimefun-wiki.guizhanss.cn/Ancient-Altar)
 
