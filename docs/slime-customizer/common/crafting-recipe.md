@@ -92,4 +92,8 @@ sidebar_position: 4
 
 - **ANCIENT_ALTAR** [古代祭坛](https://slimefun-wiki.guizhanss.cn/Ancient-Altar)
 
+以下配方类型的合成配方支持多格多数量合成（即你可以在每一格都设置输入数量为64的物品）：
+
+- **SMELTERY** [冶炼炉](https://slimefun-wiki.guizhanss.cn/Smeltery)
+
 :::
