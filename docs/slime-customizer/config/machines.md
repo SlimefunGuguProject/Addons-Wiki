@@ -130,6 +130,40 @@ EXAMPLE_MACHINE:
 
 :::
 
+:::tip
+
+小技巧：当你给一个输入物品设置的数量为0时，此时该输入物品不会被机器消耗，但是你必须要将此输入物品放入输入槽才能使机器运行，粘液书和配方里不会显示数量为0的物品，所以你需要在lore里额外描述。
+
+如下所示：
+
+```yaml
+  recipes:
+    1:
+      speed-in-seconds: 5
+      input:
+        1:
+          type: VANILLA
+          id: IRON_INGOT
+          amount: 9
+        2:
+          type: VANILLA
+          id: APPLE
+          amount: 0
+      output:
+        1:
+          type: VANILLA
+          id: IRON_BLOCK
+          amount: 1
+        2:
+          type: NONE
+          id: N/A
+          amount: 1
+```
+
+此配方将苹果的数量设置为0，如果玩家只将九个铁锭放入机器，机器是不会输出铁块的。玩家必须在放入九个铁锭的同时放入一个苹果，机器才会输出铁块，当机器输出完成后，苹果不会被消耗。在机器配方页中，苹果是被隐藏的。
+
+:::
+
 :::danger 注意
 
 要避免两项配方的输入格出现重复材料。
