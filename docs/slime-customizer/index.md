@@ -11,7 +11,7 @@ SlimeCustomizer 是一个 Slimefun 附属（后文简称SC），可以让服主�
 
 欢迎加入QQ群讨论：231200497
 
-SlimeCustomizer 相较于 RykenSlimeCustomizer ，限制较大，可自定义范围较小，如果你想编写拥有更多功能的自定义附属，推荐使用 [RykenSlimeCustomizer](https://github.com/SlimefunReloadingProject/RykenSlimeCustomizer)。
+SlimeCustomizer 相较于 RykenSlimeCustomizer，限制较大，可自定义范围较小，如果你想编写拥有更多功能的自定义附属，推荐使用 [RykenSlimeCustomizer](https://github.com/SlimefunReloadingProject/RykenSlimeCustomizer)。
 
 点此转到 [RykenSlimeCustomizer wiki](https://rsc.himcs.top)。
 
