@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # 自定义粘液附属
 
-SlimeCustomizer 是一个 Slimefun 附属（后文简称SC），可以让服主只通过配置文件就能创建一个附属，操作简单易懂。
+SlimeCustomizer 是一个 Slimefun 附属(后文简称SC)，可以让服主只通过配置文件就能创建一个附属，操作简单易懂。
 
 本 Wiki 由官方 Wiki 翻译而来，并做出适当地扩充。  
 由 [haiman233](https://github.com/haiman233) 和 [ybw0014](https://github.com/ybw0014) 编写。
@@ -13,7 +13,7 @@ SlimeCustomizer 是一个 Slimefun 附属（后文简称SC），可以让服主�
 
 SlimeCustomizer 相较于 RykenSlimeCustomizer，限制较大，可自定义范围较小，如果你想编写拥有更多功能的自定义附属，推荐使用 [RykenSlimeCustomizer](https://github.com/SlimefunReloadingProject/RykenSlimeCustomizer)。
 
-点此转到 [RykenSlimeCustomizer wiki](https://rsc.himcs.top)。
+点此转到 [RykenSlimeCustomizer wiki](https://rsc.hiworldmc.com)。
 
 ## 展示
 
