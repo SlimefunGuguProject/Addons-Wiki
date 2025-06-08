@@ -74,6 +74,11 @@ const config: Config = {
           label: '附属下载',
         },
         {
+          href: 'https://hsd.hikari.bond/',
+          position: 'left',
+          label: '粘液物品数据库',
+        },
+        {
           href: 'https://github.com/SlimefunGuguProject/Addons-Wiki',
           position: 'right',
           className: 'header-github-link',
