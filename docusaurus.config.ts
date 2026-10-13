@@ -12,7 +12,7 @@ const config: Config = {
   url: "https://slimefun-addons-wiki.guizhanss.cn/",
   baseUrl: "/",
 
-  onBrokenLinks: "warn",
+  onBrokenLinks: "throw",
 
   stylesheets: [
     {
@@ -44,12 +44,6 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
-  markdown: {
-    hooks: {
-      onBrokenMarkdownLinks: "warn",
-    },
-  },
 
   themeConfig: {
     // Replace with your project's social card
