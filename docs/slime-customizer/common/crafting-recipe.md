@@ -7,52 +7,52 @@ sidebar_position: 4
 每个物品都需要指定配方。本页将对配方部分进行统一说明。
 
 ```yaml
-  crafting-recipe-type: ENHANCED_CRAFTING_TABLE
-  crafting-recipe:
-    1:
-      type: VANILLA
-      id: STICK
-      amount: 1
-    2:
-      type: NONE
-      id: N/A
-      amount: 1
-    3:
-      type: NONE
-      id: N/A
-      amount: 1
-    4:
-      type: VANILLA
-      id: STICK
-      amount: 1
-    5:
-      type: NONE
-      id: N/A
-      amount: 1
-    6:
-      type: NONE
-      id: N/A
-      amount: 1
-    7:
-      type: NONE
-      id: N/A
-      amount: 1
-    8:
-      type: NONE
-      id: N/A
-      amount: 1
-    9:
-      type: NONE
-      id: N/A
-      amount: 1
+crafting-recipe-type: ENHANCED_CRAFTING_TABLE
+crafting-recipe:
+  1:
+    type: VANILLA
+    id: STICK
+    amount: 1
+  2:
+    type: NONE
+    id: N/A
+    amount: 1
+  3:
+    type: NONE
+    id: N/A
+    amount: 1
+  4:
+    type: VANILLA
+    id: STICK
+    amount: 1
+  5:
+    type: NONE
+    id: N/A
+    amount: 1
+  6:
+    type: NONE
+    id: N/A
+    amount: 1
+  7:
+    type: NONE
+    id: N/A
+    amount: 1
+  8:
+    type: NONE
+    id: N/A
+    amount: 1
+  9:
+    type: NONE
+    id: N/A
+    amount: 1
 ```
 
-| 内容 | 描述 | 有效输入 |
-| --- | ----------- | ----------------- |
-| crafting-recipe-type | 制作物品所用配方类型。 | 见[可用的配方类型](#recipe-types)。 |
-| crafting-recipe.#.type | 配方物品的类型。 | **NONE** 无物品 <br />**VANILLA** 原版物品 <br /> **SLIMEFUN** 粘液科技物品 <br />**SAVEDITEM** [保存的物品](./saved-items) |
-| crafting-recipe.#.id | 配方物品的标识符。 | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或[保存物品](../common/saved-items)的 ID。<br />物品类型为**NONE**时，不需要填写。 |
-| crafting-recipe.#.amount | 配方物品的数量。 | 整数，最少为1，最多为一组物品的最大数量。<br />物品类型为**NONE**时，不需要填写。 |
+| 内容                     | 描述                   | 有效输入                                                                                                                                                                                                      |
+| ------------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| crafting-recipe-type     | 制作物品所用配方类型。 | 见[可用的配方类型](#recipe-types)。                                                                                                                                                                           |
+| crafting-recipe.#.type   | 配方物品的类型。       | **NONE** 无物品 <br />**VANILLA** 原版物品 <br /> **SLIMEFUN** 粘液科技物品 <br />**SAVEDITEM** [保存的物品](./saved-items)                                                                                   |
+| crafting-recipe.#.id     | 配方物品的标识符。     | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或[保存物品](../common/saved-items)的 ID。<br />物品类型为**NONE**时，不需要填写。 |
+| crafting-recipe.#.amount | 配方物品的数量。       | 整数，最少为1，最多为一组物品的最大数量。<br />物品类型为**NONE**时，不需要填写。                                                                                                                             |
 
 ## 可用的配方类型 {#recipe-types}
 

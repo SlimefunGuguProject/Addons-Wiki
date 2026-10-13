@@ -10,8 +10,8 @@ EXAMPLE_ITEM:
   item-type: CUSTOM
   item-name: "&bExample Item"
   item-lore:
-  - "&7This is an example item!"
-  - "&cSlimeCustomizer now supports multiline lore!"
+    - "&7This is an example item!"
+    - "&cSlimeCustomizer now supports multiline lore!"
   item-id: STICK
   item-amount: 1
   placeable: false
@@ -55,18 +55,18 @@ EXAMPLE_ITEM:
       amount: 1
 ```
 
-| 内容 | 描述 | 有效输入 |
-| --- | ----------- | ----------------- |
-| `EXAMPLE_ITEM` | 物品的 ID。<br />该 ID 不能与任何其他物品的 ID 相同！ | **仅支持大写字母、数字、下划线!** |
-| category | 物品所在分类的 ID。 | 自定义粘液附属的[分类](./categories) ID，或[其他分类的标识符](./categories#use-existing-categories)。 |
-| item-type | 物品注册的方式。 | **CUSTOM** 填入此项时，你可以自定义物品名称、描述、种类。<br />**SAVEDITEM** 从[保存的物品](../common/saved-items)中加载物品。 |
-| item-name | 物品的名称。<br />支持[颜色代码](../common/color-codes)。 | |
-| item-lore | 物品的描述。<br />支持[颜色代码](../common/color-codes)。<br />如果不想添加描述可以将整个字段删除。 | |
-| item-id | 物品的标识符。 | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或[保存物品](../common/saved-items)的 ID。 |
-| item-amount | 每次合成该物品时所输出的数量。 | 1 - 64（整数） |
-| placeable | 物品是否可放置。<br />**不要把工具等本来就无法放置的物品设置为可放置！** | `true`或`false` |
-| crafting-recipe-type | 见[合成配方](../common/crafting-recipe)页。 | |
-| crafting-recipe | 见[合成配方](../common/crafting-recipe)页。 | |
+| 内容                 | 描述                                                                                                | 有效输入                                                                                                                                                              |
+| -------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EXAMPLE_ITEM`       | 物品的 ID。<br />该 ID 不能与任何其他物品的 ID 相同！                                               | **仅支持大写字母、数字、下划线!**                                                                                                                                     |
+| category             | 物品所在分类的 ID。                                                                                 | 自定义粘液附属的[分类](./categories) ID，或[其他分类的标识符](./categories#use-existing-categories)。                                                                 |
+| item-type            | 物品注册的方式。                                                                                    | **CUSTOM** 填入此项时，你可以自定义物品名称、描述、种类。<br />**SAVEDITEM** 从[保存的物品](../common/saved-items)中加载物品。                                        |
+| item-name            | 物品的名称。<br />支持[颜色代码](../common/color-codes)。                                           |                                                                                                                                                                       |
+| item-lore            | 物品的描述。<br />支持[颜色代码](../common/color-codes)。<br />如果不想添加描述可以将整个字段删除。 |                                                                                                                                                                       |
+| item-id              | 物品的标识符。                                                                                      | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或[保存物品](../common/saved-items)的 ID。 |
+| item-amount          | 每次合成该物品时所输出的数量。                                                                      | 1 - 64（整数）                                                                                                                                                        |
+| placeable            | 物品是否可放置。<br />**不要把工具等本来就无法放置的物品设置为可放置！**                            | `true`或`false`                                                                                                                                                       |
+| crafting-recipe-type | 见[合成配方](../common/crafting-recipe)页。                                                         |                                                                                                                                                                       |
+| crafting-recipe      | 见[合成配方](../common/crafting-recipe)页。                                                         |                                                                                                                                                                       |
 
 本配置文件注册的都是没有任何效果的物品。后续的大部分配置文件都拥有类似的字段。
 

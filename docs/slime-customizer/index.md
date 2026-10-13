@@ -17,7 +17,7 @@ SlimeCustomizer 相较于 RykenSlimeCustomizer，限制较大，可自定义范�
 
 ## 展示
 
-*想要看看 SlimeCustomizer 的成果如何?  可以看看[海曼科技院](https://github.com/haiman233/HaimanTech2)，海曼科技院是一个开源的 SlimeCustomizer 和 RykenSlimeCustomizer 配置，希望海曼科技院可以带给你启发！*
+_想要看看 SlimeCustomizer 的成果如何? 可以看看[海曼科技院](https://github.com/haiman233/HaimanTech2)，海曼科技院是一个开源的 SlimeCustomizer 和 RykenSlimeCustomizer 配置，希望海曼科技院可以带给你启发！_
 
 ![展示1](https://user-images.githubusercontent.com/83174104/163699938-8d7c0084-34fd-4d99-9d77-b2454c883669.png)
 ![展示2](https://user-images.githubusercontent.com/83174104/163699824-97081e94-e31c-4f55-a5a4-3a66e2b68484.png)

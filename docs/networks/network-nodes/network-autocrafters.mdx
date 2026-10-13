@@ -2,14 +2,16 @@
 sidebar_position: 28
 ---
 
-import ImageGallery from '@site/src/components/ImageGallery';
+import ImageGallery from "@site/src/components/ImageGallery"
 
 # 网络自动合成机
 
-<ImageGallery images={[
-  { src: '/images/networks/network-autocrafter.png', alt: '网络自动合成机' },
-  { src: '/images/networks/network-autocrafter-withholding.png', alt: '网络自动合成机(预留版)' }
-]} />
+<ImageGallery
+  images={[
+    { src: "/images/networks/network-autocrafter.png", alt: "网络自动合成机" },
+    { src: "/images/networks/network-autocrafter-withholding.png", alt: "网络自动合成机(预留版)" },
+  ]}
+/>
 
 网络自动合成机可以通过提供的已[编码](./network-encoder)的[网络蓝图](../tools/crafting-blueprint)来自动合成物品。
 
@@ -23,7 +25,7 @@ import ImageGallery from '@site/src/components/ImageGallery';
 
 而预留版则会在输出栏满1组物品后停止合成。由于该特性，预留版的电力消耗比普通版本更高。
 
-| 等级 | 每次合成电力消耗 |
-| --- | ------- |
-| 普通版 | 64 |
-| 预留版 | 128 |
+| 等级   | 每次合成电力消耗 |
+| ------ | ---------------- |
+| 普通版 | 64               |
+| 预留版 | 128              |
