@@ -20,17 +20,17 @@ EXAMPLE_GEO:
     NETHER: 6
 ```
 
-| 内容 | 描述 | 有效输入 |
-| --- | ----------- | ----------------- |
-| `EXAMPLE_GEO` | 物品的 ID。<br />该 ID 不能与任何其他物品的 ID 相同！ | **仅支持大写字母、数字、下划线!** |
-| category | 物品所在分类的 ID。 | 自定义粘液附属的[分类](./categories) ID，或[其他分类的标识符](./categories#use-existing-categories)。 |
-| item-type | 物品注册的方式。 | **CUSTOM** 填入此项时，你可以自定义物品名称、描述、种类。<br />**SAVEDITEM** 从[保存的物品](../common/saved-items)中加载物品。 |
-| item-name | 物品的名称。<br />支持[颜色代码](../common/color-codes)。 | |
-| item-lore | 物品的描述。<br />支持[颜色代码](../common/color-codes)。<br />如果不想添加描述可以将整个字段删除。 | |
-| item-id | 物品的标识符。 | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或保存的物品的ID。 |
-| max-deviation | 每个区块自然资源数量的最大偏差。 | 正整数 |
-| biome | 自然资源在各个生物群系的默认数量。<br />*可选，但biome与environment至少要有一个。* | |
-| environment | 自然资源在各个世界类型的默认数量。<br />*可选，但biome与environment至少要有一个。* | |
+| 内容          | 描述                                                                                                | 有效输入                                                                                                                                      |
+| ------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| `EXAMPLE_GEO` | 物品的 ID。<br />该 ID 不能与任何其他物品的 ID 相同！                                               | **仅支持大写字母、数字、下划线!**                                                                                                             |
+| category      | 物品所在分类的 ID。                                                                                 | 自定义粘液附属的[分类](./categories) ID，或[其他分类的标识符](./categories#use-existing-categories)。                                         |
+| item-type     | 物品注册的方式。                                                                                    | **CUSTOM** 填入此项时，你可以自定义物品名称、描述、种类。<br />**SAVEDITEM** 从[保存的物品](../common/saved-items)中加载物品。                |
+| item-name     | 物品的名称。<br />支持[颜色代码](../common/color-codes)。                                           |                                                                                                                                               |
+| item-lore     | 物品的描述。<br />支持[颜色代码](../common/color-codes)。<br />如果不想添加描述可以将整个字段删除。 |                                                                                                                                               |
+| item-id       | 物品的标识符。                                                                                      | [原版物品 ID（Material）](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[头颅](../common/skull-items)或保存的物品的ID。 |
+| max-deviation | 每个区块自然资源数量的最大偏差。                                                                    | 正整数                                                                                                                                        |
+| biome         | 自然资源在各个生物群系的默认数量。<br />_可选，但biome与environment至少要有一个。_                  |                                                                                                                                               |
+| environment   | 自然资源在各个世界类型的默认数量。<br />_可选，但biome与environment至少要有一个。_                  |                                                                                                                                               |
 
 ## 关于每个区块自然资源数量的说明
 

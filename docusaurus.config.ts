@@ -1,8 +1,8 @@
-import { themes as prismThemes } from "prism-react-renderer";
-import type { Config } from "@docusaurus/types";
-import type * as Preset from "@docusaurus/preset-classic";
-import remarkMath from "remark-math";
-import rehypeKatex from "rehype-katex";
+import { themes as prismThemes } from "prism-react-renderer"
+import type { Config } from "@docusaurus/types"
+import type * as Preset from "@docusaurus/preset-classic"
+import remarkMath from "remark-math"
+import rehypeKatex from "rehype-katex"
 
 const config: Config = {
   title: "粘液科技附属中文 Wiki",
@@ -12,13 +12,7 @@ const config: Config = {
   url: "https://slimefun-addons-wiki.guizhanss.cn/",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  // organizationName: 'facebook', // Usually your GitHub org/user name.
-  // projectName: 'docusaurus', // Usually your repo name.
-
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: "warn",
 
   stylesheets: [
     {
@@ -38,9 +32,8 @@ const config: Config = {
       {
         docs: {
           routeBasePath: "/",
-          sidebarPath: "./sidebars.ts",
-          editUrl:
-            "https://github.com/SlimefunGuguProject/Addons-Wiki/tree/master/",
+          sidebarPath: "./src/sidebars.ts",
+          editUrl: "https://github.com/SlimefunGuguProject/Addons-Wiki/tree/master/",
           remarkPlugins: [remarkMath],
           rehypePlugins: [rehypeKatex],
         },
@@ -51,6 +44,12 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: "warn",
+    },
+  },
 
   themeConfig: {
     // Replace with your project's social card
@@ -71,12 +70,12 @@ const config: Config = {
         {
           href: "https://builds.guizhanss.com/",
           position: "left",
-          label: "附属下载",
+          label: "构建站",
         },
         {
-          href: "https://hsd.mccaigou.cn/",
+          href: "https://resources.guizhanss.com/",
           position: "left",
-          label: "粘液物品数据库",
+          label: "资源站",
         },
         {
           href: "https://github.com/SlimefunGuguProject/Addons-Wiki",
@@ -141,22 +140,22 @@ const config: Config = {
         // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
       },
     },
-    algolia: {
+    docsearch: {
       appId: "ATI3VKTB81",
       apiKey: "abe82c0148dfc17e87c2d18ba5061e7f",
-      askAi: "cRhTY6lGx1cg",
-      indexName: "slimefun-addons-guizhanss",
+      indices: ["slimefun-addons-guizhanss"],
+      askAi: {
+        agentId: "89a4460d-84fd-4c4a-83d5-1d6d2500c7c4",
+      },
     },
   } satisfies Preset.ThemeConfig,
 
   plugins: [
     "docusaurus-plugin-sass",
     "docusaurus-plugin-image-zoom",
-    [
-      "@gracefullight/docusaurus-plugin-cloudflare-analytics",
-      { token: "be17739788d94d68a5d1b74a8f56de6a" },
-    ],
+    ["@gracefullight/docusaurus-plugin-cloudflare-analytics", { token: "be17739788d94d68a5d1b74a8f56de6a" }],
+    "@docsearch/docusaurus-adapter",
   ],
-};
+}
 
-export default config;
+export default config
