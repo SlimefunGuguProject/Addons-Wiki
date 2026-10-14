@@ -38,11 +38,11 @@ sidebar_position: 5
 ```yaml
 EXAMPLE_ITEM:
   category: slime_customizer
-  item-type: SAVEDITEM  # 注意此处需要填写 SAVEDITEM
+  item-type: SAVEDITEM # 注意此处需要填写 SAVEDITEM
   item-id: DIRT # 此处为保存物品的文件名，必须完全一致
   item-name: "&b保存物品示例(配置自动忽略名称)" # 当物品类型为保存物品时，该字段将被忽略
   item-lore: # 当物品类型为保存物品时，该字段将被忽略
-  - "&7配置自动忽略lore"
+    - "&7配置自动忽略lore"
   item-amount: 1
   placeable: false
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
@@ -67,42 +67,42 @@ EXAMPLE_ITEM:
 将保存物品作为配方物品使用时，需要将 `type` 设置为 `SAVEDITEM`，并在 `id` 处填写保存的物品的文件名（无后缀）。
 
 ```yaml
-    1:
-      type: SAVEDITEM
-      id: DIRT
-      amount: 1
-    2:
-      type: NONE
-      id: N/A
-      amount: 1
-    3:
-      type: NONE
-      id: N/A
-      amount: 1
-    4:
-      type: SAVEDITEM
-      id: DIRT
-      amount: 1
-    5:
-      type: NONE
-      id: N/A
-      amount: 1
-    6:
-      type: NONE
-      id: N/A
-      amount: 1
-    7:
-      type: NONE
-      id: N/A
-      amount: 1
-    8:
-      type: NONE
-      id: N/A
-      amount: 1
-    9:
-      type: NONE
-      id: N/A
-      amount: 1
+1:
+  type: SAVEDITEM
+  id: DIRT
+  amount: 1
+2:
+  type: NONE
+  id: N/A
+  amount: 1
+3:
+  type: NONE
+  id: N/A
+  amount: 1
+4:
+  type: SAVEDITEM
+  id: DIRT
+  amount: 1
+5:
+  type: NONE
+  id: N/A
+  amount: 1
+6:
+  type: NONE
+  id: N/A
+  amount: 1
+7:
+  type: NONE
+  id: N/A
+  amount: 1
+8:
+  type: NONE
+  id: N/A
+  amount: 1
+9:
+  type: NONE
+  id: N/A
+  amount: 1
 ```
 
 ## 注意事项
@@ -121,9 +121,9 @@ EXAMPLE_ITEM:
 ```yaml
 HAIMAN_LIGHT_UPDATER:
   category: slime_customizer_new
-  machine-name: '&e&l电光升级机'
+  machine-name: "&e&l电光升级机"
   machine-lore:
-  - '&7用于升级光源方块'
+    - "&7用于升级光源方块"
   block-type: SKULL59d0f51f39e08e51cc83cbec01e3ce1362c70c02edc351902af8e7a5f6e201bc
   progress-bar-item: GOLDEN_SHOVEL
   stats:
@@ -131,360 +131,360 @@ HAIMAN_LIGHT_UPDATER:
     energy-buffer: 50000
   crafting-recipe-type: ENHANCED_CRAFTING_TABLE
   crafting-recipe:
-    '1':
+    "1":
       type: SAVEDITEM
       id: LIGHT_0
       amount: 1
-    '2':
+    "2":
       type: SLIMEFUN
       id: HEATING_COIL
       amount: 1
-    '3':
+    "3":
       type: SAVEDITEM
       id: LIGHT_0
       amount: 1
-    '4':
+    "4":
       type: SLIMEFUN
       id: POWER_CRYSTAL
       amount: 1
-    '5':
+    "5":
       type: SLIMEFUN
       id: COOLING_UNIT
       amount: 1
-    '6':
+    "6":
       type: SLIMEFUN
       id: POWER_CRYSTAL
       amount: 1
-    '7':
+    "7":
       type: VANILLA
       id: SEA_LANTERN
       amount: 1
-    '8':
+    "8":
       type: SLIMEFUN
       id: ANCIENT_ITEM
       amount: 1
-    '9':
+    "9":
       type: VANILLA
       id: SEA_LANTERN
       amount: 1
   recipes:
-    '1':
+    "1":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_0
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_1
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '2':
+    "2":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_1
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_2
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '3':
+    "3":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_2
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_3
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '4':
+    "4":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_3
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_4
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '5':
+    "5":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_4
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_5
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '6':
+    "6":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_5
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_6
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '7':
+    "7":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_6
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_7
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '8':
+    "8":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_7
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_8
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '9':
+    "9":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_8
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_9
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '10':
+    "10":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_9
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_10
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '11':
+    "11":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_10
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_11
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '12':
+    "12":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_11
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_12
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '13':
+    "13":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_12
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_13
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '14':
+    "14":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_13
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_14
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '15':
+    "15":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_14
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: VANILLA
           id: LIGHT
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
-    '16':
+    "16":
       speed-in-seconds: 4
       input:
-        '1':
+        "1":
           type: VANILLA
           id: LIGHT
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1
       output:
-        '1':
+        "1":
           type: SAVEDITEM
           id: LIGHT_0
           amount: 1
-        '2':
+        "2":
           type: NONE
           id: N/A
           amount: 1

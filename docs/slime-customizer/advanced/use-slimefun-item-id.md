@@ -11,8 +11,8 @@ sidebar_position: 1
 利用该特性，你可以给任意物品添加该 NBT 标签，使其具有粘液科技物品的特性。
 
 ```yaml title="保存物品中关于粘液物品 ID 的部分"
-    PublicBukkitValues:
-      slimefun:slimefun_item: DIET_COOKIE
+PublicBukkitValues:
+  slimefun:slimefun_item: DIET_COOKIE
 ```
 
 该 NBT 标签表示物品为减肥曲奇。

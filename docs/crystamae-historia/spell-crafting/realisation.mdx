@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-import ImageGallery from '@site/src/components/ImageGallery';
+import ImageGallery from "@site/src/components/ImageGallery"
 
 # 转化为魔法水晶
 
@@ -12,10 +12,7 @@ import ImageGallery from '@site/src/components/ImageGallery';
 
 现实祭坛周围4x4范围同一高度的地面会生成魔法水晶簇，并不断成长。
 
-<ImageGallery images={[
-  { src: '/images/crystamae-historia/realisation.png', alt: '现实祭坛' }
-]} />
-
+<ImageGallery images={[{ src: "/images/crystamae-historia/realisation.png", alt: "现实祭坛" }]} />
 
 当魔法水晶簇生长完成后，便会附带粒子效果。可以破坏它来获得其中的魔法水晶。魔法水晶的类型与故事的类型有关。
 
@@ -24,12 +21,12 @@ import ImageGallery from '@site/src/components/ImageGallery';
 现实祭坛拥有5个等级，可以转化不同等级的物品或方块。
 
 | 记录者等级 | 可转化方块等级 |
-| ------ | ------- |
-| T1 | T1 - T2 |
-| T2 | T1 - T3 |
-| T3 | T1 - T4 |
-| T4 | T1 - T5 |
-| T5 | T1 - T5 |
+| ---------- | -------------- |
+| T1         | T1 - T2        |
+| T2         | T1 - T3        |
+| T3         | T1 - T4        |
+| T4         | T1 - T5        |
+| T5         | T1 - T5        |
 
 其中，T5现实祭坛支持自动化，投掷在其上方的物品将会被自动收集并开始转化。<br />
 生长完成的魔法水晶簇则可以通过活塞推动平台来实现。

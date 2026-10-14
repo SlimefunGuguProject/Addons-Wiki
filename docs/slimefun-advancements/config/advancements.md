@@ -29,42 +29,42 @@ portable_workbench:
 
 以下为各个部分的说明:
 
-| 内容 | 描述 |
-| -------- | -------- |
-| portable_workbench | 进度的ID。<br />**只能用小写字母、数字、下划线!** |
-| `group` | **必须**。进度所属的进度组。<br />对应着[进度组配置](./groups)中设置的分组ID。 |
-| `display` | **必须**。进度的展示物品。<br />详见[设置物品](../set-item)。 |
-| `frame_type` | *可选*。指定在进度菜单中图标的类型。<br />可选：`GOAL`, `TASK`, `CHALLENGER`.<br />默认：`GOAL` |
-| `name` | **必须**。进度的显示名称。<br />会在完成进度后的公屏通知中展示，支持颜色代码`&`。<br />*建议：使用与原版进度一致的格式。*<br />*例如:* `&a[便携合成]` |
-| `hidden` | *可选*。是否隐藏进度。<br />隐藏后进度将不在列表中展示，直到玩家完成进度后才会显示。 |
-| `criteria` | **必须**。该进度的完成条件。<br />详见[完成条件](#criteria)。 |
-| `rewards` | *可选*。这是该进度的完成奖励。<br />详见[奖励](#rewards)。 |
+| 内容               | 描述                                                                                                                                                  |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| portable_workbench | 进度的ID。<br />**只能用小写字母、数字、下划线!**                                                                                                     |
+| `group`            | **必须**。进度所属的进度组。<br />对应着[进度组配置](./groups)中设置的分组ID。                                                                        |
+| `display`          | **必须**。进度的展示物品。<br />详见[设置物品](../set-item)。                                                                                         |
+| `frame_type`       | _可选_。指定在进度菜单中图标的类型。<br />可选：`GOAL`, `TASK`, `CHALLENGER`.<br />默认：`GOAL`                                                       |
+| `name`             | **必须**。进度的显示名称。<br />会在完成进度后的公屏通知中展示，支持颜色代码`&`。<br />_建议：使用与原版进度一致的格式。_<br />_例如:_ `&a[便携合成]` |
+| `hidden`           | _可选_。是否隐藏进度。<br />隐藏后进度将不在列表中展示，直到玩家完成进度后才会显示。                                                                  |
+| `criteria`         | **必须**。该进度的完成条件。<br />详见[完成条件](#criteria)。                                                                                         |
+| `rewards`          | _可选_。这是该进度的完成奖励。<br />详见[奖励](#rewards)。                                                                                            |
 
-----
+---
 
 ## 完成条件 {#criteria}
 
 每个进度可以设置多个条件，完成所有条件后才算完成进度。
 
 ```yaml
-  criteria:
-    pickaxe:
-      name: "获得爆炸镐"
-      type: inventory
-      item:
-        type: EXPLOSIVE_PICKAXE
-    shovel:
-      name: "获得爆炸铲"
-      type: inventory
-      item:
-        type: EXPLOSIVE_SHOVEL
+criteria:
+  pickaxe:
+    name: "获得爆炸镐"
+    type: inventory
+    item:
+      type: EXPLOSIVE_PICKAXE
+  shovel:
+    name: "获得爆炸铲"
+    type: inventory
+    item:
+      type: EXPLOSIVE_SHOVEL
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容            | 描述                                                                                            |
+| --------------- | ----------------------------------------------------------------------------------------------- |
 | pickaxe, shovel | 这是进度条件的ID。<br />**只能用英文、数字、下划线!**<br />同一个进度中，每个条件的ID不能相同。 |
-| `type` | **必须**。这是该条件的类型。<br />详见下文的各种条件类型。 |
-| `name` | *可选*。这是该条件的描述。<br />如果未指定，则会使用条件的ID作为描述。 |
+| `type`          | **必须**。这是该条件的类型。<br />详见下文的各种条件类型。                                      |
+| `name`          | _可选_。这是该条件的描述。<br />如果未指定，则会使用条件的ID作为描述。                          |
 
 另外，根据条件类型的不同，还有一些其他的参数需要填写。
 
@@ -83,19 +83,19 @@ portable_workbench:
 :::
 
 ```yaml
-  criteria:
-    consume:
-      name: "饮用金苹果汁"
-      type: consume
-      amount: 5
-      item:
-        type: GOLDEN_APPLE_JUICE
+criteria:
+  consume:
+    name: "饮用金苹果汁"
+    type: consume
+    amount: 5
+    item:
+      type: GOLDEN_APPLE_JUICE
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
-| `item` | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
-| `amount` | *可选*。需要食用的物品数量，默认为1。 |
+| 内容     | 描述                                                                |
+| -------- | ------------------------------------------------------------------- |
+| `item`   | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
+| `amount` | _可选_。需要食用的物品数量，默认为1。                               |
 
 ### interact 右键使用物品 {#interact}
 
@@ -104,19 +104,19 @@ portable_workbench:
 该类型的条件需要玩家右键使用指定的物品。
 
 ```yaml
-  criteria:
-    interact:
-      name: "使用一次便携工作台"
-      type: interact
-      amount: 1
-      item:
-        type: PORTABLE_CRAFTER
+criteria:
+  interact:
+    name: "使用一次便携工作台"
+    type: interact
+    amount: 1
+    item:
+      type: PORTABLE_CRAFTER
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
-| `item` | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
-| `amount` | *可选*。需要使用的次数，默认为1。 |
+| 内容     | 描述                                                                |
+| -------- | ------------------------------------------------------------------- |
+| `item`   | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
+| `amount` | _可选_。需要使用的次数，默认为1。                                   |
 
 ### inventory 拥有物品 {#inventory}
 
@@ -127,19 +127,19 @@ portable_workbench:
 检测会在玩家开启、关闭物品栏，或捡起物品时进行。
 
 ```yaml
-  criteria:
-    ore_grinder:
-      name: "获得电力碎矿机"
-      type: inventory
-      amount: 1
-      item:
-        type: ELECTRIC_ORE_GRINDER
+criteria:
+  ore_grinder:
+    name: "获得电力碎矿机"
+    type: inventory
+    amount: 1
+    item:
+      type: ELECTRIC_ORE_GRINDER
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
-| `item` | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
-| `amount` | *可选*。满足条件所需的物品数量，默认为1。 |
+| 内容     | 描述                                                                |
+| -------- | ------------------------------------------------------------------- |
+| `item`   | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
+| `amount` | _可选_。满足条件所需的物品数量，默认为1。                           |
 
 ### multiblock 与多方块结构交互 {#multiblock}
 
@@ -148,15 +148,15 @@ portable_workbench:
 该类型的条件需要玩家与指定的多方块结构交互。
 
 ```yaml
-  criteria:
-    ore_crusher:
-      name: "使用一次矿石粉碎机"
-      type: multiblock
-      multiblock: ORE_CRUSHER
+criteria:
+  ore_crusher:
+    name: "使用一次矿石粉碎机"
+    type: multiblock
+    multiblock: ORE_CRUSHER
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容         | 描述                       |
+| ------------ | -------------------------- |
 | `multiblock` | **必须**。多方块结构的ID。 |
 
 :::note
@@ -185,19 +185,19 @@ portable_workbench:
 目前暂时没有对已放置方块的检测，所以玩家可以通过在同一地点重复放下并破坏方块来完成条件，因此，一般将数量设置为1。
 
 ```yaml
-  criteria:
-    build:
-      name: "放置一个能源调节器"
-      type: place
-      amount: 1
-      item:
-        type: ENERGY_REGULATOR
+criteria:
+  build:
+    name: "放置一个能源调节器"
+    type: place
+    amount: 1
+    item:
+      type: ENERGY_REGULATOR
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
-| `item` | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
-| `amount` | *可选*。满足条件所需的物品数量，默认为1。 |
+| 内容     | 描述                                                                |
+| -------- | ------------------------------------------------------------------- |
+| `item`   | **必须**。指定该条件所需的物品。<br />参考[设置物品](../set-item)。 |
+| `amount` | _可选_。满足条件所需的物品数量，默认为1。                           |
 
 ### break 破坏方块 {#break}
 
@@ -214,15 +214,15 @@ portable_workbench:
 该类型的条件需要玩家解锁指定研究。
 
 ```yaml
-  criteria:
-    research:
-      name: "研究末影护身符"
-      type: research
-      research: "slimefun:ender_talismans"
+criteria:
+  research:
+    name: "研究末影护身符"
+    type: research
+    research: "slimefun:ender_talismans"
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容       | 描述                                                                                                                 |
+| ---------- | -------------------------------------------------------------------------------------------------------------------- |
 | `research` | **必须**。研究的 NamespacedKey。<br />你可以在[粘液科技助手](https://slimefun-helper.guizhanss.cn)中查询研究的键名。 |
 
 ### mobkill 击杀指定生物 {#mobkill}
@@ -232,18 +232,18 @@ portable_workbench:
 该类型的条件需要玩家击杀指定类型的生物。
 
 ```yaml
-  criteria:
-    kill_ender_dragon:
-      name: "击杀末影龙"
-      type: mobkill
-      amount: 1
-      entity: ender_dragon
+criteria:
+  kill_ender_dragon:
+    name: "击杀末影龙"
+    type: mobkill
+    amount: 1
+    entity: ender_dragon
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容     | 描述                                                                                                                                    |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------- |
 | `entity` | **必须**。指定该条件所需的生物类型。<br />生物类型为`EntityType`小写加下划线的形式<br />(例如 `stray`、`cave_spider`、`glow_squid`等。) |
-| `amount` | *可选*。满足条件所需击杀的生物数量，默认为1。 |
+| `amount` | _可选_。满足条件所需击杀的生物数量，默认为1。                                                                                           |
 
 ### search 使用搜索功能 {#search}
 
@@ -252,15 +252,15 @@ portable_workbench:
 该类型的条件需要玩家使用粘液科技的搜索功能（可通过粘液科技指南书，或`/sf search`指令）来搜索指定字符。
 
 ```yaml
-  criteria:
-    search_cargo:
-      name: "搜索货运"
-      type: search
-      search: "货运"
+criteria:
+  search_cargo:
+    name: "搜索货运"
+    type: search
+    search: "货运"
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容     | 描述                                                                           |
+| -------- | ------------------------------------------------------------------------------ |
 | `search` | **必须**。指定该条件所需的搜索字符。搜索内容需要与该字符完全一致，才可以完成。 |
 
 ### multiblockcraft 多方块结构合成 {#multiblockcraft}
@@ -270,37 +270,37 @@ portable_workbench:
 该类型的条件需要玩家使用多方块结构合成指定物品来完成。
 
 ```yaml
-  criteria:
-    craft_grandmas_walking_stick:
-      name: "合成3次奶奶的拐杖"
-      type: multiblockcraft
-      item: GRANDMAS_WALKING_STICK
-      amount: 3
+criteria:
+  craft_grandmas_walking_stick:
+    name: "合成3次奶奶的拐杖"
+    type: multiblockcraft
+    item: GRANDMAS_WALKING_STICK
+    amount: 3
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
-| `item` | **必须**。需要合成的物品ID。 |
-| `amount` | *可选*。需要合成的**次数**，默认为1。<br />**注意**：这不是合成数量，而是合成次数。 |
+| 内容     | 描述                                                                                |
+| -------- | ----------------------------------------------------------------------------------- |
+| `item`   | **必须**。需要合成的物品ID。                                                        |
+| `amount` | _可选_。需要合成的**次数**，默认为1。<br />**注意**：这不是合成数量，而是合成次数。 |
 
 ### 更多条件 {#more-criterion}
 
 以上是现有的进度完成条件。如果你想添加更多类型的条件，请参阅粘液科技进度提供的API。
 
-----
+---
 
 ## 奖励 {#rewards}
 
 每个进度可以设置多种类型的奖励。
 
 ```yaml
-  rewards:
-    commands:
-      - "experience add %p% 3 levels"
+rewards:
+  commands:
+    - "experience add %p% 3 levels"
 ```
 
-| 内容 | 描述 |
-| -------- | -------- |
+| 内容     | 描述                                                     |
+| -------- | -------------------------------------------------------- |
 | commands | 为奖励类型(需要完全对应)。<br />详见下文的各种奖励类型。 |
 
 ### command 指令 {#command}
@@ -310,10 +310,10 @@ portable_workbench:
 目前完成进度仅有这一种奖励类型，以控制台的身份执行指令。
 
 ```yaml
-  rewards:
-    commands:
-      - "experience add %p% 3 levels"
-      - "sf give %p% COPPER_DUST"
+rewards:
+  commands:
+    - "experience add %p% 3 levels"
+    - "sf give %p% COPPER_DUST"
 ```
 
 每一行为一条指令，从上到下按顺序执行。

@@ -20,4 +20,4 @@ sidebar_position: 1
 
 当你装载 SC 的配置时，请盯好后台显示的错误提示，并依据错误提示修改你的 SC 配置。
 
-推荐你在装载SC配置前，先使用 [SCchecker](https://github.com/SlimefunReloadingProject/SCchecker)  通篇检查一遍配置，依据输出报告修改后再安装到服务器中。
+推荐你在装载SC配置前，先使用 [SCchecker](https://github.com/SlimefunReloadingProject/SCchecker) 通篇检查一遍配置，依据输出报告修改后再安装到服务器中。

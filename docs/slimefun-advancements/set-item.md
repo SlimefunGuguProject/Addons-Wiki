@@ -22,11 +22,11 @@ my_other_group:
 
 你可以通过以下字段来设置物品。
 
-| 字段 | 描述 |
-| -------- | -------- |
+| 字段   | 描述                                                                                                                                                |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `type` | **必须**。[原版物品ID](https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)或[粘液科技物品ID](https://slimefun-helper.guizhanss.cn)。 |
-| `name` | *可选*。物品的显示名称，支持彩色字符`&`。 |
-| `lore` | *可选*。物品的描述，支持彩色字符`&`。 |
+| `name` | _可选_。物品的显示名称，支持彩色字符`&`。                                                                                                           |
+| `lore` | _可选_。物品的描述，支持彩色字符`&`。                                                                                                               |
 
 当设置的物品为条件物品时，检测进度只会检测物品类型与名称，不会检测物品描述。
 
@@ -65,7 +65,8 @@ hi:
     meta:
       ==: ItemMeta
       meta-type: UNSPECIFIC
-      display-name: '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
+      display-name:
+        '{"extra":[{"bold":false,"italic":false,"underlined":false,"strikethrough":false,"obfuscated":false,"color":"aqua","text":"Zinc
         Ingot"}],"text":""}'
       PublicBukkitValues:
         slimefun:slimefun_item: ZINC_INGOT
